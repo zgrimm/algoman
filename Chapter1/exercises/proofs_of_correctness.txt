@@ -1,0 +1,61 @@
+1-7: **Prove the correctness of the following recursive algorithm to multiply two
+natural numbers, for all integer constants c ≥ 2.
+function multiply(y,z)
+	comment Return the product yz.
+	1. if z = 0 then return(0) else
+	2. return(multiply(cy, floor(z/c)) + y · (z mod c))**
+
+	case 1: c = z
+		multiply(y,z) = multiply(cy, floor(z/c)) + y · (z mod c)
+					  = multiply(zy, floor(z/z)) + y · (z mod z)
+					  = multiply(zy, 1) + y · (z mod z)
+					  = multiply(zy, 1) 
+					  = multiply(czy, floor(1/c)) + zy*(1 mod c) 
+					  = multiply(zzy, floor(1/z)) + zy*(1 mod z) 
+					  = multiply(zzy, 0) + zy*(1 mod z) 
+					  = yz
+					  OK!
+					 
+
+	case 2: c > z
+		multiply(y,z) = multiply(cy, floor(z/c)) + y · (z mod c)
+					  = multiply(cy, 0) + y · (z mod c)
+					  = multiply(cy, 0) + y · (z mod c)
+					  = yz
+					  OK!
+
+
+	case 3: c < z
+		multiply(y,z) = multiply(cy, floor(z/c)) + y · (z mod c)
+			          = multiply(cy, floor(z/c)) + y · (z - (c * floor(z/c)))
+			          = multiply(cy, floor(z/c)) + yz - yc*floor(z/c)    
+			          = multiply(ccy, floor(floor(z/c)/c)) + y*(floor(z/c) mod c) + yz - yc*floor(z/c)    
+			          = multiply(ccy, floor(floor(z/c)/c)) + y*(floor(z/c) mod c) + yz - yc*floor(z/c)    
+			         
+
+
+		By the quotient remainder theorem: z = c*q + (z mod c)
+		and z/c = floor(z/c) + (z mod c) / c
+		floor(z/c) = z/c - (z mod c) / c
+		(z mod c) = z - (c * floor(z/c))
+
+
+
+1-8: **Prove the correctness of the following algorithm for evaluating a polynomial.
+P(x) = anxn + an−1xn−1 + ... + a1x + a0
+function horner(A, x)
+	p = An
+	for i from n − 1 to 0
+	p = p ∗ x + Ai
+	return p **
+
+
+
+
+1-9: **Prove the correctness of the following sorting algorithm.
+function bubblesort (A : list[1 ...n])
+	var int i, j
+	for i from n to 1
+	for j from 1 to i − 1
+	if (A[j] > A[j + 1])
+	swap the values of A[j] and A[j + 1]**
