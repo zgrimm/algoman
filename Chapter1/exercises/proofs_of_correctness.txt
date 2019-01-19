@@ -26,18 +26,25 @@ function multiply(y,z)
 
 
 	case 3: c < z
-		multiply(y,z) = multiply(cy, floor(z/c)) + y · (z mod c)
-			          = multiply(cy, floor(z/c)) + y · (z - (c * floor(z/c)))
-			          = multiply(cy, floor(z/c)) + yz - yc*floor(z/c)    
-			          = multiply(ccy, floor(floor(z/c)/c)) + y*(floor(z/c) mod c) + yz - yc*floor(z/c)    
-			          = multiply(ccy, floor(floor(z/c)/c)) + y*(floor(z/c) mod c) + yz - yc*floor(z/c)    
-			         
-
-
-		By the quotient remainder theorem: z = c*q + (z mod c)
-		and z/c = floor(z/c) + (z mod c) / c
-		floor(z/c) = z/c - (z mod c) / c
-		(z mod c) = z - (c * floor(z/c))
+		c >= 2
+		z <= n //indutive hypothesis
+		y >= 0
+		base Case: z = 0, multiply(y,0) = 0 which is true
+		lemma: we show that floor(z/c)*c + (z mod c) = z ::
+			by the quotient remainder theorem z = cq + r
+												= cq + z mod c
+												.:
+											z = floor(z/c)*c + (z mod c) (**1)
+		Assuming the algorithm holds for all nums <= n we must show that multiply(y, n + 1) = y*(n+1)
+			multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c)
+			since c >= 2, floor((n+1)/c) < n + 1 :. the first term returns a valid result (based on our inductive hypothesis) so following the algorithm
+			multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c) // let z = n+1
+							   = cy*floor((z`)/c) + y*((z`) mod c)
+							   =y*(c*floor(z`/c) + (z` mod c)) 
+							   and from (1)
+							   = y*z`
+							   = y*(n+1)
+							   OK!
 
 
 
