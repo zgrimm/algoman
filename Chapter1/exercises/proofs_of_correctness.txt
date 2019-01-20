@@ -38,7 +38,7 @@ function multiply(y,z)
 		Assuming the algorithm holds for all nums <= n we must show that multiply(y, n + 1) = y*(n+1)
 			multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c)
 			since c >= 2, floor((n+1)/c) < n + 1 :. the first term returns a valid result (based on our inductive hypothesis) so following the algorithm
-			multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c) // let z = n+1
+			multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c) // let z` = n+1
 							   = cy*floor((z`)/c) + y*((z`) mod c)
 							   =y*(c*floor(z`/c) + (z` mod c)) 
 							   and from (1)
@@ -57,18 +57,6 @@ function horner(A, x)
 	return p **
 
 
-A{n}
-A{n}*x + A{n-1}
-A{n}*x^2 + A{n-1}*x + A{n-2}
-.
-.
-.
-A{n}*x^n + A{n-1}*x^(n-1) + ... + A{1}x + A{0}
-
-
-
-
-
 
 for polynomials of degree 0 P(x) = A0, which the algoritm satisfies.
 assuming the algorithm holds for polyomials of degree <= n:
@@ -80,7 +68,7 @@ assuming the algorithm holds for polyomials of degree <= n:
 
  	horner(A`,x) :
  		p=>
- 			A`{n=1}
+ 			A`{n+1}
  			A`{n+1}*x + A`{n}
  			A`{n+1}*x^2 + A`{n}*x + A{`n-1}
  			.
@@ -90,11 +78,7 @@ assuming the algorithm holds for polyomials of degree <= n:
  			=
  			A`{n+1}*x^(n+1) + honer(A, x)
 
-
-P(x) = anx^n + an−1x^(n−1) + ... + a1x + a0
-
-
-horner(A,x) =
+??? seems circular... define what we need to show better
 	       
 
 
@@ -105,3 +89,39 @@ function bubblesort (A : list[1 ...n])
 	for j from 1 to i − 1
 	if (A[j] > A[j + 1])
 	swap the values of A[j] and A[j + 1]**
+
+base case is a list of two elements [a,b]    //we are indexing from 1 not 0 as usual
+case 1: a > b
+	i = 2
+	j = 1
+		if (A[1] > A[2]) = true
+		swap and A = [b,a]
+	i = 1
+	j = 1
+		if (A[1] > A[2]) = false
+	so A = [b,a] and from our assumption that a > b for case 1 the algorithm is true	
+
+case 2: a < b
+	i = 2
+	j = 1
+		if (A[1] > A[2]) = false
+	i = 1
+	j = 1
+		if (A[1] > A[2]) = false
+	so A = [a,b] and from our assumption that a < b for case 2 the algorithm is true	
+
+case 3: a = b
+	the list is considered sorted regardless of how the algorithm may rearange its items
+
+Now we procede with induction, assuming that for all lists of size <= n the algorithm returns a sorted list
+We must show that for a list of size n+1, the algorithm returns an ordered list
+that is function bubblesort (A : list[1 ...n, n+1])
+	var int i, j
+	for i from n+1 to 1
+	for j from 1 to i − 1
+	if (A[j] > A[j + 1])
+	swap the values of A[j] and A[j + 1]
+
+	the inner loop "bubbles up" the largest num to position i
+	on the last j iteration of the first i iteration the altered set has n+1 elems with the largest element in position n+1
+	now we have sort the rest of the list which is of size n. Our inductive hypothesis states we can do this
