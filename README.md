@@ -1,2 +1,2 @@
 # algoman
-Solutions to exercises in The Algorithm Design Manual Second Edition by  Skiena
+Solutions to exercises in The Algorithm Design Manual **Second Edition** by  *Skiena*
