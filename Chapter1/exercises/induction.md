@@ -18,6 +18,8 @@ We must show:
 
 ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%28n%2B2%29/2%5C%3B%5C%3B%5C%3B%20%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1)(n+2)/2\\;\\;\\; $")
 
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1) + \\sum\_{i=1}^{n} i$")
+
 
 
     Assume that SUM{i=1,n}(i) = n(n+1)/2 for numbers <= n and  n >=0 
