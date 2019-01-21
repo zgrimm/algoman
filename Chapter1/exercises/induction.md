@@ -2,21 +2,13 @@
  
 __Prove__:  
 
- ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%5C%3A%20%20for%5C%3A%20n%20%3E%3D%200%2C%5C%3A%20by%5C%3A%20induction "\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2\\:  for\\: n >= 0,\\: by\\: induction")
+ ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%5C%3A%20%20for%5C%3A%20n%20%3E%3D%200%2C%5C%3A%20by%5C%3A%20induction "\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2\\;  for\\; n >= 0,\\; by\\; induction")
 
 Let n = 1. Then:
 
 ![formula](http://latex.codecogs.com/gif.latex?%24n%28n%2B1%29/2%20%3D%201%20%3D%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7B1%7D%20i%20 "$n(n+1)/2 = 1 = \\displaystyle\\sum\_{i=1}^{1} i ")
 
-Assume that
-
-![formula](http://latex.codecogs.com/gif.latex?%24n%28n%2B1%29/2%20%3D%201%20%3D%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7B1%7D%20i%20%5C%3Afor%20%5C%3Anumbers%20%3C%3D%20n%20%5C%3Aand%5C%3A%20%20n%20%3E%3D0%20%24 "$n(n+1)/2 = 1 = \\displaystyle\\sum\_{i=1}^{1} i \\:for \\:numbers <= n \\:and\\:  n >=0 $")
-
-![formula](http://latex.codecogs.com/gif.latex?%24n%28n%2B1%29/2%20%3D%201%20%3D%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7B1%7D%20i%20 "$n(n+1)/2 = 1 = \\displaystyle\\sum\_{i=1}^{1} i ")
-for numbers <= n and  n >=0 
-
-![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%2B1%7D%20i%20%24%0A "$\\displaystyle\\sum\_{i=1}^{n+1} i $
-")
+Assume that:
 
 ![formula](http://latex.codecogs.com/gif.latex?%20%20%20%20%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%2B1%7D%20i%20%3D%20n%2B1%20%2B%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%28i%29%20%20%20%24%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20 "    $\\displaystyle\\sum\_{i=1}^{n+1} i = n+1 + \\displaystyle\\sum\_{i=1}^{n} (i)   $ 
                       ")
