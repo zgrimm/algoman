@@ -25,7 +25,8 @@ __Prove__:  SUM{i=1,n}(i^2) = n(n+1)(2n+1)/6 for n >= 0, by induction
 
 1-13: // Prove SUM{i=1,n}((i)*(i+1)*(i+2)) = n(n+1)(n+2)(n+3)/4 for n >= 0, by induction
  
-1-14: Prove by induction on n >= 1 that for every a!=1
+1-14: \\
+Prove by induction on n >= 1 that for every a!=1
   SUM{i=0,n}(a^i) = [a^(n+1) - 1] / [a - 1]
 
 1-15: Prove by induction on n >= 1 
