@@ -2,8 +2,10 @@
  
 __Prove__:  
 
-![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bn%3D1%7D%5E%7B10%7D%20n%5E%7B2%7D%20%28full%20format%29 "\\displaystyle\\sum\_{i=1}^{n} i ") = n(n+1)/2 for n >= 0, by induction
-SUM{i=1,n}(i) = n(n+1)/2 for n >= 0, by induction
+
+ ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%24%20 "$\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2$ ") for n >= 0, by induction
+
+    ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%24%20 "$\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2$ ") for n >= 0, by induction
     
     Let n = 1. Then n(n+1)/2 = 1 = SUM{i=1,1}(i) :.
     Assume that SUM{i=1,n}(i) = n(n+1)/2 for numbers <= n and  n >=0 
