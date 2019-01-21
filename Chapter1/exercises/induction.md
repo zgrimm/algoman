@@ -10,6 +10,8 @@ Let n = 1. Then:
 
 Assume that
 
+![formula](http://latex.codecogs.com/gif.latex?%24n%28n%2B1%29/2%20%3D%201%20%3D%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7B1%7D%20i%20%5C%3Afor%20%5C%3Anumbers%20%3C%3D%20n%20%5C%3Aand%5C%3A%20%20n%20%3E%3D0%20%24 "$n(n+1)/2 = 1 = \\displaystyle\\sum\_{i=1}^{1} i \\:for \\:numbers <= n \\:and\\:  n >=0 $")
+
 ![formula](http://latex.codecogs.com/gif.latex?%24n%28n%2B1%29/2%20%3D%201%20%3D%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7B1%7D%20i%20 "$n(n+1)/2 = 1 = \\displaystyle\\sum\_{i=1}^{1} i ")
 for numbers <= n and  n >=0 
 
