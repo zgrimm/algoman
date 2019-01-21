@@ -1,6 +1,9 @@
-#1-10: //
+#1-10: 
+ 
+__Prove__:  
 
-__Prove__:  SUM{i=1,n}(i) = n(n+1)/2 for n >= 0, by induction
+![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bn%3D1%7D%5E%7B10%7D%20n%5E%7B2%7D%20%28full%20format%29 "\\displaystyle\\sum\_{i=1}^{n} i ") = n(n+1)/2 for n >= 0, by induction
+SUM{i=1,n}(i) = n(n+1)/2 for n >= 0, by induction
     
     Let n = 1. Then n(n+1)/2 = 1 = SUM{i=1,1}(i) :.
     Assume that SUM{i=1,n}(i) = n(n+1)/2 for numbers <= n and  n >=0 
@@ -23,13 +26,13 @@ __Prove__:  SUM{i=1,n}(i^2) = n(n+1)(2n+1)/6 for n >= 0, by induction
 
 
 
-1-12: \\ 
+1-12: 
 
  SUM{i=1,n}(i^3) = n^2(n+1)^2/4 for n >= 0, by induction
 
 1-13: // Prove SUM{i=1,n}((i)*(i+1)*(i+2)) = n(n+1)(n+2)(n+3)/4 for n >= 0, by induction
  
-1-14: \\
+1-14: 
 Prove by induction on n >= 1 that for every a!=1
   SUM{i=0,n}(a^i) = [a^(n+1) - 1] / [a - 1]
 
