@@ -23,23 +23,41 @@ We must show:
 ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%5C%5C%0A%3D%20%28n%2B1%29%20%2B%20n%28n%2B1%29/2%20%5C%5C%0A%3D%20%5B2%28n%2B1%29%20%2B%20n%28n%2B1%29%5D/2%20%5C%5C%0A%3D%20%28n%2B1%29%28n%2B2%29/s%20%5C%5C%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1) + \\sum\_{i=1}^{n} i \\\\
 = (n+1) + n(n+1)/2 \\\\
 = [2(n+1) + n(n+1)]/2 \\\\
-= (n+1)(n+2)/s \\\\$")
+= (n+1)(n+2)/ \\\\$")
+
+__QED__
 
 
 
-    Assume that SUM{i=1,n}(i) = n(n+1)/2 for numbers <= n and  n >=0 
-    SUM{i=1,n + 1}(i) = n+1 + SUM{i=1,n}(i)
-                      = n+1 + n(n+1)/2
-                      = (n+1)(n+2)/2 which we needed to show :.
-                      $\displaystyle\sum_{i=1}^{n+1} i $
+#1-10: 
+ 
+__Prove__:  
 
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%3D%20n%28n%2B1%29/2%5C%3B%5C%3B%20%20for%5C%3B%5C%3B%20n%20%3E%3D%200%2C%5C%3B%5C%3B%20by%5C%3B%20induction%24 "$\\displaystyle\\sum\_{i=1}^{n} i = n(n+1)/2\\;\\;  for\\;\\; n >= 0,\\;\\; by\\; induction$")
 
-    
-    Let n = 1. Then n(n+1)/2 = 1 = SUM{i=1,1}(i) :.
-    Assume that SUM{i=1,n}(i) = n(n+1)/2 for numbers <= n and  n >=0 
-    SUM{i=1,n + 1}(i) = n+1 + SUM{i=1,n}(i)
-                      = n+1 + n(n+1)/2
-                      = (n+1)(n+2)/2 which we needed to show :.
+    Let n = 1. Then:
+
+![formula](http://latex.codecogs.com/gif.latex?%24n%28n%2B1%29/2%20%3D%201%20%3D%20%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7B1%7D%20i%20 "$n(n+1)/2 = 1 = \\displaystyle\\sum\_{i=1}^{1} i ")
+
+    establishing our base case.
+
+    Assume that:
+
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%3D%20n%28n%2B1%29/2%5C%3B%5C%3B%5C%3B%20%20for%5C%3B%20n%20%3C%3D%20k%2C%5C%3B%5C%3B%5C%3B%20%24 "$\\displaystyle\\sum\_{i=1}^{n} i = n(n+1)/2\\;\\;\\;  for\\; n <= k,\\;\\;\\; $")
+
+    We must show:
+
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%28n%2B2%29/2%5C%3B%5C%3B%5C%3B%20%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1)(n+2)/2\\;\\;\\; $")
+
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1) + \\sum\_{i=1}^{n} i$")
+
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%5C%5C%0A%3D%20%28n%2B1%29%20%2B%20n%28n%2B1%29/2%20%5C%5C%0A%3D%20%5B2%28n%2B1%29%20%2B%20n%28n%2B1%29%5D/2%20%5C%5C%0A%3D%20%28n%2B1%29%28n%2B2%29/s%20%5C%5C%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1) + \\sum\_{i=1}^{n} i \\\\
+    = (n+1) + n(n+1)/2 \\\\
+    = [2(n+1) + n(n+1)]/2 \\\\
+    = (n+1)(n+2)/ \\\\$")
+
+__QED__
+
 
 #1-11: 
 
