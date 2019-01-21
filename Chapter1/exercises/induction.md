@@ -5,6 +5,12 @@ __Prove__:
 
  ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%24%20 "$\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2$ ") for n >= 0, by induction
 
+ ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%20%20for%20n%20%3E%3D%200%2C%20by%20induction "\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2  for n >= 0, by induction")
+
+ ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%2C%20%20for%20n%20%3E%3D%200%2C%20by%20%20%20%20%20%20%20%20%20%20%20%20%20induction "\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2,  for n >= 0, by             induction")
+
+ ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%20%20for%5C%3A%20n%20%3E%3D%200%2C%20by%5C%3Ainduction "\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2  for\\: n >= 0, by\\:induction")
+
     ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20n%20%3D%20n%28n%2B1%29/2%24%20 "$\\displaystyle\\sum\_{i=1}^{n} n = n(n+1)/2$ ") for n >= 0, by induction
     
     Let n = 1. Then n(n+1)/2 = 1 = SUM{i=1,1}(i) :.
