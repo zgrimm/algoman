@@ -46,3 +46,9 @@ positive integers is equal to the square of the sum of these integers, i.e.
     > dknfddf
 
     ![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cint_%7Ba%7D%5E%7Bb%7D%20x%5E2%20dx%24%24 "$$\\int\_{a}^{b} x^2 dx$$")
+
+
+
+
+
+![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cint_%7Ba%7D%5E%7Bb%7D%20x%5E2%20dx%24%24 "$$\\int\_{a}^{b} x^2 dx$$")
