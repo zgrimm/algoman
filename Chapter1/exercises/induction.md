@@ -1,13 +1,25 @@
 #1-10: 
 __Prove__:  SUM{i=1,n}(i) = n(n+1)/2 for n >= 0, by induction
-> dknfddf dknfddfdknfddfdknfddfdknfddfdknfddfdknfddf
-> dknfddfdknfddfdknfddfdknfddfdknfddfdknfddfdknfddf
-> 
-> dknfddf
+    
+    Let n = 1. Then n(n+1)/2 = 1 = SUM{i=1,1}(i) :.
+    Assume that SUM{i=1,n}(i) = n(n+1)/2 for numbers <= n and  n >=0 
+    SUM{i=1,n + 1}(i) = n+1 + SUM{i=1,n}(i)
+                      = n+1 + n(n+1)/2
+                      = (n+1)(n+2)/2 which we needed to show :.
 
-![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cint_%7Ba%7D%5E%7Bb%7D%20x%5E2%20dx%24%24 "$$\\int\_{a}^{b} x^2 dx$$")
+#1-11: 
+__Prove__:  SUM{i=1,n}(i^2) = n(n+1)(2n+1)/6 for n >= 0, by induction
+    
+    let n = 1. Then n(n+1)(2n+1)/6 = 1 = SUM{i=1,1}(i^2)
+    Assume that SUM{i=1,n}(i^2) = n(n+1)(2n+1)/6.
+    SUM{i=1,n + 1}(i^2) = (n+1)^2 + SUM{i=1,n}(i^2)
+                        = (n+1)^2 + n(n+1)(2n+1)/6
+                        = (n+1)[6(n+1) + n(2n+1)] / 6
+                        = (n+1)[2n^2 +7n + 6] / 6
+                        = (n+1)(n+2)(2n +3) / 6
+                        = (n+1)(n+2)(2(n+1) + 1) / 6 which we needed to how :.
 
-1-11: Prove SUM{i=1,n}(i^2) = n(n+1)(2n+1)/6 for n >= 0, by induction
+
 
 1-12: Prove SUM{i=1,n}(i^3) = n^2(n+1)^2/4 for n >= 0, by induction
 
@@ -26,3 +38,11 @@ __Prove__:  SUM{i=1,n}(i) = n(n+1)/2 for n >= 0, by induction
 1-18: Prove by mathematical induction that the sum of the cubes of the first n
 positive integers is equal to the square of the sum of these integers, i.e.
 	SUM{i=1,n}(i^3) = [SUM{i=1,n}(i)]^2 
+
+
+    > dknfddf dknfddfdknfddfdknfddfdknfddfdknfddfdknfddf
+    > dknfddfdknfddfdknfddfdknfddfdknfddfdknfddfdknfddf
+    > 
+    > dknfddf
+
+    ![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cint_%7Ba%7D%5E%7Bb%7D%20x%5E2%20dx%24%24 "$$\\int\_{a}^{b} x^2 dx$$")
