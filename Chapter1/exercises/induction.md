@@ -1,8 +1,14 @@
 #1-10: 
  
+
+ 
 __Prove__:  
 
 ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%3D%20n%28n%2B1%29/2%5C%3B%5C%3B%20%20for%5C%3B%5C%3B%20n%20%3E%3D%200%2C%5C%3B%5C%3B%20by%5C%3B%20induction%24 "$\\displaystyle\\sum\_{i=1}^{n} i = n(n+1)/2\\;\\;  for\\;\\; n >= 0,\\;\\; by\\; induction$")
+
+$\displaystyle\sum_{i=1}^{n} i = n(n+1)/2\;\;  for\;\; n >= 0,\;\; by\; induction$
+
+$\displaystyle\sum_{i=1}^{n} i = n(n+1)/2 for n >= 0, byinductionzz$
 
 Let n = 1. Then:
 
