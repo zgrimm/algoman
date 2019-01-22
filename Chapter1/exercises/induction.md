@@ -6,6 +6,14 @@ __Prove__:
 
 ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%3D%20n%28n%2B1%29/2%5C%3B%5C%3B%20%20for%5C%3B%5C%3B%20n%20%3E%3D%200%2C%5C%3B%5C%3B%20by%5C%3B%20induction%24 "$\\displaystyle\\sum\_{i=1}^{n} i = n(n+1)/2\\;\\;  for\\;\\; n >= 0,\\;\\; by\\; induction$")
 
+
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%3D%20n%28n%2B1%29/2%5C%3B%5C%3B%20%20for%5C%3B%5C%3B%20n%20%3E%3D%200%2C%5C%3B%5C%3B%20by%5C%3B%20induction%24 "$\\displaystyle\\sum\_{i=1}^{n} i = n(n+1)/2\\;\\;  for\\;\\; n >= 0,\\;\\; by\\; induction$")
+
+
+![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%3D%20n%28n%2B1%29/2%5C%3B%5C%3B%20%20for%5C%3B%5C%3B%20n%20%3E%3D%200%2C%5C%3B%5C%3B%20by%5C%3B%20induction%24 "$\\displaystyle\\sum\_{i=1}^{n} i = n(n+1)/2\\;\\;  for\\;\\; n >= 0,\\;\\; by\\; induction$")
+
+$\displaystyle\sum_{i=1}^{n} i = n(n+1)/2\;\;  for\;\; n >= 0,\;\; by\; induction$
+
 $\displaystyle\sum_{i=1}^{n} i = n(n+1)/2\;\;  for\;\; n >= 0,\;\; by\; induction$
 
 $\displaystyle\sum_{i=1}^{n} i = n(n+1)/2 for n >= 0, byinductionzz$
@@ -29,7 +37,7 @@ We must show:
 ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%5C%5C%0A%3D%20%28n%2B1%29%20%2B%20n%28n%2B1%29/2%20%5C%5C%0A%3D%20%5B2%28n%2B1%29%20%2B%20n%28n%2B1%29%5D/2%20%5C%5C%0A%3D%20%28n%2B1%29%28n%2B2%29/s%20%5C%5C%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1) + \\sum\_{i=1}^{n} i \\\\
 = (n+1) + n(n+1)/2 \\\\
 = [2(n+1) + n(n+1)]/2 \\\\
-= (n+1)(n+2)/ \\\\$")
+= (n+1)(n+2)/ \\\\")
 
 __QED__
 
@@ -60,7 +68,7 @@ __Prove__:
 ![formula](http://latex.codecogs.com/gif.latex?%24%5Cdisplaystyle%5Csum_%7Bi%3D1%7D%5E%7Bn%20%2B%201%7D%20i%20%3D%20%28n%2B1%29%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20i%20%5C%5C%0A%3D%20%28n%2B1%29%20%2B%20n%28n%2B1%29/2%20%5C%5C%0A%3D%20%5B2%28n%2B1%29%20%2B%20n%28n%2B1%29%5D/2%20%5C%5C%0A%3D%20%28n%2B1%29%28n%2B2%29/s%20%5C%5C%24 "$\\displaystyle\\sum\_{i=1}^{n + 1} i = (n+1) + \\sum\_{i=1}^{n} i \\\\
     = (n+1) + n(n+1)/2 \\\\
     = [2(n+1) + n(n+1)]/2 \\\\
-    = (n+1)(n+2)/ \\\\$")
+    = (n+1)(n+2)/ \\\\")
 
 __QED__
 
@@ -114,3 +122,5 @@ positive integers is equal to the square of the sum of these integers, i.e.
 
 
 ![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cint_%7Ba%7D%5E%7Bb%7D%20x%5E2%20dx%24%24 "$$\\int\_{a}^{b} x^2 dx$$")
+
+
