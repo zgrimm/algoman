@@ -37,7 +37,7 @@ Here's a forced page break.
 
 \pagebreak
 
-# LaTeX support
+# LaTeX support breh
 
 This document supports inline \LaTeX!
 
