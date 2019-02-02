@@ -2,22 +2,14 @@
 ### Show that a + b can be less than min(a, b) 
 
 let\
-![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%3D%20-1%2C%20b%20%3D%20-1 "\\displaystyle\\ a = -1, b = -1")\
+![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5C%20a%20%3D%20-1%2C%20b%20%3D%20-1%24%24 "$$\\displaystyle\\ a = -1, b = -1$$")\
 Then\
-![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%2B%20b%20%3D%20-2 "\\displaystyle\\ a + b = -2"), 
-![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Cmin%28a%2Cb%29%20%3D%20-1 "\\displaystyle\\min(a,b) = -1") so 
-![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20%5CZ "\\displaystyle\\ \\exists a, b \\in \\Z") : 
-![formula](http://latex.codecogs.com/gif.latex?a%2Bb%20%3C%20min%28a%2Cb%29 "a+b < min(a,b)")
+![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5C%20a%20%2B%20b%20%3D%20-2%24%24 "$$\\displaystyle\\ a + b = -2$$")\ 
+![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5Cmin%28a%2Cb%29%20%3D%20-1%24%24%20 "$$\\displaystyle\\min(a,b) = -1$$ ")\
+so\
+![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20Z%20%3A%20a%2Bb%20%3C%20min%28a%2Cb%29%24%24 "$$\\displaystyle\\ \\exists a, b \\in Z : a+b < min(a,b)$$")\
 
-\begin{align}
-	![formula](http://latex.codecogs.com/gif.latex?H%28X%29%20%3D%20-%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dp%28x_i%29%5Clog_bp%28x_i%29 "H(X) = - \\sum\_{i=1}^{n}p(x\_i)\\log\_bp(x\_i)")
-\end{align}
 
-$$
-a =& 9 \\
-b =& 10 \\
-c =& 100,000,00
-\end{align*}$$
 
 
 ## 1-2: 
