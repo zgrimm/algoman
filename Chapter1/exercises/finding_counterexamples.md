@@ -7,7 +7,7 @@
 	![formula](http://latex.codecogs.com/gif.latex?H%28X%29%20%3D%20-%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dp%28x_i%29%5Clog_bp%28x_i%29 "H(X) = - \\sum\_{i=1}^{n}p(x\_i)\\log\_bp(x\_i)")
 \end{align}
 
-[//]: <> (This is also a comment.)$$H(X) = - \sum_{i=1}^{n}p(x_i)\log_bp(x_i)$$
+[//]: # (This is also a comment.)$$H(X) = - \sum_{i=1}^{n}p(x_i)\log_bp(x_i)$$
 
 
 ## 1-2: 
