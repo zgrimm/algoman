@@ -1,19 +1,19 @@
-1-1: **Show that a + b can be less than min(a, b)**
+#1-1: **Show that a + b can be less than min(a, b)**
 	let a = -1, b = -1. Then a + b = -2, min(a,b) = -1 so there exist a & b such that a+b < min(a,b)
 
 
-1-2: **Show that a × b can be less than min(a, b)**
+#1-2: **Show that a × b can be less than min(a, b)**
 	let a = -1, b = 5. Then a*b = -5, min(a,b) = -1 so there exist a & b such that a*b < min(a,b)
 
 
 
-1-3: **Design/draw a road network with two points a and b such that the fastest route between a and b is not the shortest route**
+#1-3: **Design/draw a road network with two points a and b such that the fastest route between a and b is not the shortest route**
 		
 		A_________B
 	    |		  |
 	    C_________|
 
-1-4: **Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns.**
+#1-4: **Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns.**
 
 		A_____________________C
 	  __|                     |
@@ -23,7 +23,7 @@
 ????: What exactly is meant by route between a and b? Must all nodes be traversed?
 
 
-1-5: **The knapsack problem is as follows: given a set of integers S = {s1, s2,...,sn},
+#1-5: **The knapsack problem is as follows: given a set of integers S = {s1, s2,...,sn},
 and a target number T, find a subset of S which adds up exactly to T. For example,
 there exists a subset within S = {1, 2, 5, 9, 10} that adds up to T = 22 but not
 T = 23.
