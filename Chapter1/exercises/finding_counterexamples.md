@@ -1,7 +1,7 @@
 ## 1-1: 
 ### Show that a + b can be less than min(a, b) 
 
-let\ 
+let\
 ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%3D%20-1%2C%20b%20%3D%20-1 "\\displaystyle\\ a = -1, b = -1")\
 Then\
 ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%2B%20b%20%3D%20-2 "\\displaystyle\\ a + b = -2"), 
