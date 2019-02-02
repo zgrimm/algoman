@@ -1,11 +1,11 @@
-# 1-1: \\
-**Show that a + b can be less than min(a, b)**
+## 1-1: \
+### Show that a + b can be less than min(a, b) \
 
 	let a = -1, b = -1. Then a + b = -2, min(a,b) = -1 so there exist a & b such that a+b < min(a,b)
 
 
-# 1-2: 
-**Show that a × b can be less than min(a, b)**
+## 1-2: \
+### **Show that a × b can be less than min(a, b)** \
 
 	let a = -1, b = 5. Then a*b = -5, min(a,b) = -1 so there exist a & b such that a*b < min(a,b)
 
