@@ -7,11 +7,11 @@
 	![formula](http://latex.codecogs.com/gif.latex?H%28X%29%20%3D%20-%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dp%28x_i%29%5Clog_bp%28x_i%29 "H(X) = - \\sum\_{i=1}^{n}p(x\_i)\\log\_bp(x\_i)")
 \end{align}
 
-$$\begin{align*}
+$$
 a =& 9 \\
 b =& 10 \\
 c =& 100,000,00
-\end{align*}$$
+$$
 
 
 ## 1-2: 
