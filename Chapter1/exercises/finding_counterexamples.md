@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5C%20a%20%2B%20b%20%3D%20-2%24%24 "$$\\displaystyle\\ a + b = -2$$"), 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5Cmin%28a%2Cb%29%20%3D%20-1%24%24%20 "$$\\displaystyle\\min(a,b) = -1$$ ")
 #### so
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20Z%20%3A%20a%2Bb%20%3C%20min%28a%2Cb%29%24%24 "$$\\displaystyle\\ \\exists  a, b \\in Z : a+b < min(a,b)$$")
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![formula](http://latex.codecogs.com/gif.latex?%24%24%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20Z%20%3A%20a%2Bb%20%3C%20min%28a%2Cb%29%24%24 "$$\\displaystyle\\ \\exists  a, b \\in Z : a+b < min(a,b)$$")
 
 
 
