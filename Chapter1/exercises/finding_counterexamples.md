@@ -11,6 +11,12 @@
 
 "renderer": "http://chart.googleapis.com/chart?cht=tx&chl={$$\\displaystyle\\ \\exists  a, b \\in Z : a+b < min(a,b)$$}"
 
+![formula](http://chart.googleapis.com/chart?cht=tx&chl={"$$\\displaystyle\\ \\exists  a, b \\in Z : a+b < min(a,b)$$"})
+
+![formula](http://chart.googleapis.com/chart?cht=tx&chl={?%24%24%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20Z%20%3A%20a%2Bb%20%3C%20min%28a%2Cb%29%24%24 "$$\\displaystyle\\ \\exists  a, b \\in Z : a+b < min(a,b)$$"})
+
+![formula](http://chart.googleapis.com/chart?cht=tx&chl=?%24%24%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20Z%20%3A%20a%2Bb%20%3C%20min%28a%2Cb%29%24%24 "$$\\displaystyle\\ \\exists  a, b \\in Z : a+b < min(a,b)$$")
+
 ## 1-2: 
 ### Show that a × b can be less than min(a, b)** 
 
