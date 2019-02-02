@@ -1,8 +1,9 @@
 ## 1-1: 
 ### Show that a + b can be less than min(a, b) 
 
-let 
-![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%3D%20-1%2C%20b%20%3D%20-1 "\\displaystyle\\ a = -1, b = -1"). Then 
+let\ 
+![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%3D%20-1%2C%20b%20%3D%20-1 "\\displaystyle\\ a = -1, b = -1")\
+Then\
 ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20a%20%2B%20b%20%3D%20-2 "\\displaystyle\\ a + b = -2"), 
 ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5Cmin%28a%2Cb%29%20%3D%20-1 "\\displaystyle\\min(a,b) = -1") so 
 ![formula](http://latex.codecogs.com/gif.latex?%5Cdisplaystyle%5C%20%5Cexists%20a%2C%20b%20%5Cin%20%5CZ "\\displaystyle\\ \\exists a, b \\in \\Z") : 
