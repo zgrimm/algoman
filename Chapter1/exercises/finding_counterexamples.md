@@ -3,6 +3,9 @@
 
 	let a = -1, b = -1. Then a + b = -2, min(a,b) = -1 so there exist a & b such that a+b < min(a,b)
 
+\begin{align}
+	H(X) = - \sum_{i=1}^{n}p(x_i)\log_bp(x_i)
+\end{align}
 
 ## 1-2: 
 ### Show that a × b can be less than min(a, b)** 
@@ -31,13 +34,13 @@
 
 ## 1-5: 
 ### The knapsack problem is as follows: 
-**given a set of integers S = {s1, s2,...,sn},
+given a set of integers S = {s1, s2,...,sn},
 and a target number T, find a subset of S which adds up exactly to T. For example,
 there exists a subset within S = {1, 2, 5, 9, 10} that adds up to T = 22 but not
 T = 23.
 Find counterexamples to each of the following algorithms for the knapsack problem.
 That is, giving an S and T such that the subset is selected using the algorithm does
-not leave the knapsack completely full, even though such a solution exists.**
+not leave the knapsack completely full, even though such a solution exists.*
 
 	(a) Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.
 		A: let S = {1,7,9}, T = 10
