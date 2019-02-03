@@ -46,18 +46,55 @@ Find counterexamples to each of the following algorithms for the knapsack proble
 That is, giving an S and T such that the subset is selected using the algorithm does
 not leave the knapsack completely full, even though such a solution exists.}
 	
-		\begin{enumerate}[label=(\alph*)]
-		\itemsep1pt\parskip0pt\parsep0pt
-			\item{\emph{\textbf{Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.}} \\
-				Let $S = \{1,7,9\}, \; T = 10$
-			}
-			\item{\emph{\textbf{Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.}} \\
-				Let $S = \{1,7,9\}, \; T = 10$
-			}
-			\item{\emph{\textbf{Put the elements of S in the knapsack from largest to smallest.}} \\
-				Let $S = \{1,4,5,7,9\}, \; T = 19$
-			}
-		\end{enumerate}
+\begin{enumerate}[label=(\alph*)]
+\itemsep1pt\parskip0pt\parsep0pt
+	\item{\emph{\textbf{Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.}} \\
+		Let $S = \{1,7,9\}, \; T = 10$
+	}
+	\item{\emph{\textbf{Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.}} \\
+		Let $S = \{1,7,9\}, \; T = 10$
+	}
+	\item{\emph{\textbf{Put the elements of S in the knapsack from largest to smallest.}} \\
+		Let $S = \{1,4,5,7,9\}, \; T = 19$
+	}
+\end{enumerate}
+
+
+\textbf{1-6.} \emph{\textbf{The set cover problem is as follows: } Given a set of subsets S1, ..., Sm of the universal set 
+	$U = \{1, ..., n\}$, 
+	find the smallest subset of subsets 
+	$T \subset S$ 
+	such that  
+	$\cup_{t_{i} \in T}t_{i} = U$ For example, there are the following subsets, $S_{1} = \{1, 3, 5\}, S_{2} = \{2, 4\}, S_{3} = \{1, 4\}, \; and \; S_{4} = \{2, 5\}$ The set cover would then be $S_{1}$ and $S_{2}$ . } \\
+
+\emph{\textbf{Find a counterexample for the following algorithm:} Select the largest subset for the cover, and then delete all its elements from the universal set. Repeat by adding the subset containing the largest number of uncovered elements until all are covered.}
+
+\begin{center}
+	$$U = \{1,2,3,4,5,6,7,8,9,10,11\}, \; S_{1} = \{1,2,3,4,5\}, \; S_{2} = \{6,7,8,9\}, $$
+    $$S_{3} = \{6,7,10\}, \; S_{4} = \{8,9,11\}$$ 
+	$$U^{'} = \{6,7,8,9,10,11\}, \; T^{'} = S_{1}$$ \\
+	The Set with largest number of uncovered elements is $S_{2}$. $S_{3}$ and $S_{4}$ must also be included in the set cover because they contain elements (10 \& 11 respectivly)
+	in U that are not members of any other subset. Therefore this algorithm gives us as the set cover all of the subsets, but $S_{1} \cup S_{3} \cup S_{4}$ covers U and is smaller
+	than $S_{1} \cup S_{2} \cup S_{3} \cup S_{4}$
+\end{center}
+
+
+% ## 1-6:
+% ### The set cover problem is as follows: 
+% *Given a set of subsets S1, ..., Sm of the
+% universal set U = {1, ..., n}, find the smallest subset of subsets T ⊂ S such that   ????: does smallest mean least number of subsets? Least number of all elements?
+% ∪ti∈T ti = U. For example, there are the following subsets, S1 = {1, 3, 5}, S2 =
+% {2, 4}, S3 = {1, 4}, and S4 = {2, 5} The set cover would then be S1 and S2.
+% Find a counterexample for the following algorithm: Select the largest subset for the
+% cover, and then delete all its elements from the universal set. Repeat by adding the
+% subset containing the largest number of uncovered elements until all are covered.*
+
+% 	U = {1,2,3,4,5,6,7,8,9,10, 11}, S1 = {1,2,3,4,5}, S2 = {6,7,8,9}, S3 = {6,7,10}, S4 = {8,9,11}
+% 	U` = {6,7,8,9,10,11}, T` = S1
+% 	The Set with largest number of uncovered elements is S2. S3 and S4 must also be included in the set cover because they contain elements (10 & 11 respectivly)
+% 	in U that are not members of any other subset. Therefore this algorithm gives us as the set cover all of the subsets, but S1 U S3 U S4 covers U and is smaller
+% 	than S1 U S2 U S3 U S4
+
 	% 	\begin{center}
 	% \end{center}
 
