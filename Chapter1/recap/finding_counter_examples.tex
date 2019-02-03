@@ -27,3 +27,53 @@
 Although the distance from A to B through C is shorter than going through D, road constraints limit the time it takes making the route through D faster despite it being longer.
 
 
+
+\textbf{1-4.} \emph{Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns}
+	\begin{center}
+		\begin{tikzcd}
+		 &  \arrow[d, "1"] & A \arrow[rrrrrr, "6"] \arrow[l, "1"] &  &  &  &  &  & C \arrow[dd, "2"] \\
+		 \arrow[d, "1"] &  \arrow[l, "1"] &  &  &  &  &  &  &  \\
+		 \arrow[rr, "2"] &  & B &  &  &  &  &  &  \arrow[llllll, "6"]
+		\end{tikzcd}
+	\end{center}
+The route from A through C to B has only two turns but is a total length of 14 units while the direct route from A to B (the shortest) has 4 turns and is a length of 6 units. $\therefore$ The shortest route between A and B is not the route with the fewest turns.
+
+\textbf{1-5.} \emph{\textbf{The knapsack problem is as follows:} Given a set of integers S = {s1, s2,...,sn},
+and a target number T, find a subset of S which adds up exactly to T. For example,
+there exists a subset within S = {1, 2, 5, 9, 10} that adds up to T = 22 but not
+T = 23.
+Find counterexamples to each of the following algorithms for the knapsack problem.
+That is, giving an S and T such that the subset is selected using the algorithm does
+not leave the knapsack completely full, even though such a solution exists.}
+	
+		\begin{enumerate}[label=(\alph*)]
+		\itemsep1pt\parskip0pt\parsep0pt
+			\item{\emph{\textbf{Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.}} \\
+				Let $S = \{1,7,9\}, \; T = 10$
+			}
+			\item{\emph{\textbf{Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.}} \\
+				Let $S = \{1,7,9\}, \; T = 10$
+			}
+			\item{\emph{\textbf{Put the elements of S in the knapsack from largest to smallest.}} \\
+				Let $S = \{1,4,5,7,9\}, \; T = 19$
+			}
+		\end{enumerate}
+	% 	\begin{center}
+	% \end{center}
+
+% ## 1-5: 
+% ### The knapsack problem is as follows: 
+% Given a set of integers S = {s1, s2,...,sn},
+% and a target number T, find a subset of S which adds up exactly to T. For example,
+% there exists a subset within S = {1, 2, 5, 9, 10} that adds up to T = 22 but not
+% T = 23.
+% Find counterexamples to each of the following algorithms for the knapsack problem.
+% That is, giving an S and T such that the subset is selected using the algorithm does
+% not leave the knapsack completely full, even though such a solution exists.*
+
+% 	(a) Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.
+% 		A: let S = {1,7,9}, T = 10
+% 	(b) Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.
+% 		A: let S = {1,7,9}, T = 10
+% 	(c) Put the elements of S in the knapsack from largest to smallest.	
+% 		A: let S = {1,4,5,7,9}, T = 19
