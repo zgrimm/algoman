@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 01:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 05:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,13 +840,28 @@ Overfull \hbox (79.24887pt too wide) detected at line 61
  []
 
 
-Overfull \hbox (4.3222pt too wide) detected at line 70
+Overfull \hbox (4.3222pt too wide) detected at line 71
 []
  []
 
 
-Overfull \hbox (0.2647pt too wide) in paragraph at lines 36--111
+Overfull \hbox (0.2647pt too wide) in paragraph at lines 36--74
 []$[]$ 
+ []
+
+[3] [4]
+Overfull \hbox (212.29337pt too wide) in paragraph at lines 83--87
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+
+ []
+
+
+Overfull \hbox (53.31949pt too wide) in paragraph at lines 89--95
+[] $\OML/cmm/m/it/12 A[]$ []
  []
 
 )
@@ -854,35 +869,34 @@ Overfull \hbox (0.2647pt too wide) in paragraph at lines 36--111
 Package caption Warning: Unused \captionsetup[figure] on input line 53.
 See the caption package documentation for explanation.
 
-[3] [4] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) )
- 
+[5] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 17923 strings out of 492616
- 346009 string characters out of 6132768
+ 17925 strings out of 492616
+ 346035 string characters out of 6132768
  585344 words of memory out of 5000000
- 21473 multiletter control sequences out of 15000+600000
- 50718 words of font info for 57 fonts, out of 8000000 for 9000
+ 21475 multiletter control sequences out of 15000+600000
+ 56348 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,14n,86p,489b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-g
-yre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-
+{c:/
+texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/texmf-dist/f
+onts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/
+qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (4 pages, 195342 bytes).
+re.pdf (5 pages, 200485 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
