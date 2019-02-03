@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 09:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**latest.tex
-(./latest.tex
+**main.tex
+(./main.tex
 LaTeX2e <2018-12-01>
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -814,7 +814,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./finding_counter_examples.tex [1
+(./chapter_1/finding_counter_examples.tex [1
 
 
 
@@ -834,7 +834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
-[2]) (./proofs_of_correctness.tex
+[2]) (./chapter_1/proofs_of_correctness.tex
 Overfull \hbox (79.24887pt too wide) detected at line 59
 \U/msa/m/n/12 )  []
  []
@@ -874,39 +874,46 @@ Overfull \hbox (5.77037pt too wide) in paragraph at lines 162--166
 [] 
  []
 
+) (./chapter_1/induction.tex [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
 )
 
-Package caption Warning: Unused \captionsetup[figure] on input line 53.
+Package caption Warning: Unused \captionsetup[figure] on input line 54.
 See the caption package documentation for explanation.
 
-[6] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
+[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 17925 strings out of 492616
- 346035 string characters out of 6132768
+ 17929 strings out of 492616
+ 346136 string characters out of 6132768
  585345 words of memory out of 5000000
  21475 multiletter control sequences out of 15000+600000
  56348 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,489b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,86p,487b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/
 texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/
-qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/te
+x-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (6 pages, 204425 bytes).
+re.pdf (8 pages, 223169 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
