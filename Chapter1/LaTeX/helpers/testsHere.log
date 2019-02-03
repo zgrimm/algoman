@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 05:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,43 +835,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--67
  []
 
 [2]) (./proofs_of_correctness.tex
-Overfull \hbox (79.24887pt too wide) detected at line 61
+Overfull \hbox (79.24887pt too wide) detected at line 59
 \U/msa/m/n/12 )  []
  []
 
 
-Overfull \hbox (4.3222pt too wide) detected at line 71
+Overfull \hbox (4.3222pt too wide) detected at line 69
 []
  []
 
 
-Overfull \hbox (0.2647pt too wide) in paragraph at lines 36--74
+Overfull \hbox (0.2647pt too wide) in paragraph at lines 34--72
 []$[]$ 
  []
 
 [3] [4]
-Overfull \hbox (212.29337pt too wide) in paragraph at lines 83--87
+Overfull \hbox (212.29337pt too wide) in paragraph at lines 81--90
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
-
- []
-
-
-Overfull \hbox (53.31949pt too wide) in paragraph at lines 89--95
+Overfull \hbox (53.31949pt too wide) in paragraph at lines 81--90
 [] $\OML/cmm/m/it/12 A[]$ []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--123
-
+[5]
+Overfull \hbox (51.33434pt too wide) in paragraph at lines 150--155
+[] 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
+[]
+ []
+
+
+Overfull \hbox (5.77037pt too wide) in paragraph at lines 162--166
+[] 
  []
 
 )
@@ -883,7 +883,7 @@ See the caption package documentation for explanation.
 Here is how much of TeX's memory you used:
  17925 strings out of 492616
  346035 string characters out of 6132768
- 585344 words of memory out of 5000000
+ 585345 words of memory out of 5000000
  21475 multiletter control sequences out of 15000+600000
  56348 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -903,7 +903,7 @@ onts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
 lic/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/
 qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (6 pages, 202813 bytes).
+re.pdf (6 pages, 204425 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
