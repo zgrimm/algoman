@@ -1,0 +1,213 @@
+\textbf{Proofs of Correctness}
+
+\textbf{1-7.} \emph{Prove the correctness of the following recursive algorithm to multiply two
+natural numbers, for all integer constants $c\geq 2$} 
+   $$\text{function } multiply(y,z)$$ 
+   $$\text{1. If  } z = 0 \text{ then return(0) else }$$ 
+   $$\text{2. return } multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$$
+
+\begin{minipage}{0.95\textwidth}
+
+\textbf{case 1: \emph{c = z}}
+\begin{align*}
+multiply(y,z) =& \;multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
+			  =& \;multiply(zy, \lfloor(z/z)\rfloor) + y(z \;mod\; z) \\
+			  =& \;multiply(zy, 1) + y(z\; mod\; z) \\
+			  =& \;multiply(zy, 1) \\ 
+			  =& \;multiply(czy, \lfloor(1/c)\rfloor) + zy(1 \;mod\; c) \\ 
+			  =& \;multiply(zzy, \lfloor(1/z)\rfloor) + zy(1 \;mod\; z) \\ 
+			  =& \;multiply(zzy, 0) + zy(1 \;mod\; z) \\ 
+			  =& \;yz \\
+			  \;\; \blacksquare
+\end{align*}
+\end{minipage}
+
+\begin{minipage}{0.95\textwidth}
+\textbf{case 2: \emph{c > z}}
+\begin{align*}
+multiply(y,z) =& \;multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
+			  =& \;multiply(cy, 0) + y(z \;mod\; c) \\
+			  =& \;multiply(cy, 0) + y(z \;mod\; c) \\
+			  =& \;yz \\
+		      \;\; \blacksquare
+\end{align*}
+\end{minipage}
+
+\begin{minipage}{0.95\textwidth}
+\textbf{case 3: \emph{c < z}}
+% \begin{align*}
+\begin{flushleft}
+	\textbf{Assumptions: } \\
+	$c \geq 2$ \\
+	$z \leq n \text{ (inductive hypothesis) }$ \\
+	$y \geq 0$ \\
+	\text{} \\
+	$\textbf{Base Case: } z = 0, \; multiply(y,0) = 0 \text{, (which is true)}$ \\ 
+	\text{} \\
+	\text{\textbf{Lemma:} we show that } \\
+	$$\lfloor(z/c)\rfloor*c + (z \;mod\; c) = z $$ 
+	\text{by the quotient remainder theorem } 
+	\begin{align*}
+	z =& \; cq + r \\
+	  =& \; cq + z \;mod\; c \\ 
+	  =& \; \lfloor(z/c)\rfloor*c + (z \;mod\; c) \;\; \text{ (1*)}
+	\end{align*}
+	$\text{Assuming the algorithm holds for all numbers}  \leq n  \text{, we must show that  } $ \\
+	$$multiply(y, n + 1) = y(n+1) $$
+	$\text{Now, }$ \\
+	$$multiply(y, n + 1) = multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) $$
+	$$\text{since } c \geq 2, $$
+	$$\lfloor((n+1)/c)\rfloor < n + 1 $$
+	$$\therefore \; \text{  the first term returns a valid result (based on our inductive hypothesis) so following the algorithm: } $$
+	\begin{align*}
+	  multiply(y, n + 1) =& \;  multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c)   \\
+					    \text{ (for simplicity let } z^{'} = n+1 \text{)} \\
+	                     =& \;  cy\lfloor((z^{'})/c)\rfloor + y((z^{'}) \;mod\; c)   \\
+	                     =& \; y(c\lfloor(z^{'}/c)\rfloor + (z^{'} \;mod\; c))  \\
+	                    \text{ and from (1*) } \\
+ 	                     =& \;  yz^{'} \\
+	                     =& \;  y(n+1) \\
+	\end{align*}
+	$\;\; \blacksquare$
+\end{flushleft}
+% \end{align*}
+
+
+
+%   \begin{flushleft}
+% 	\textbf{Assumptions: } \\
+% 	$c \geq 2$ \\
+% 	$z \leq n \text{ (inductive hypothesis) }$ \\
+% 	$y \geq 0$ \\
+% 	\text{} \\
+% 	$\textbf{Base Case: } z = 0, \; multiply(y,0) = 0 \text{, (which is true)}$ \\ 
+% 	\text{} \\
+% 	\text{\textbf{Lemma:} we show that } \\
+% 	$$\lfloor(z/c)\rfloor*c + (z \;mod\; c) = z $$ 
+% 	\text{by the quotient remainder theorem } \\
+% 	$$z = \; cq + r $$
+% 	$$z = \; cq + z \;mod\; c$$ 
+% 	$$\therefore z = \lfloor(z/c)\rfloor*c + (z \;mod\; c) \;\; \text{ (1*)} $$ \\
+% 	$\text{Assuming the algorithm holds for all numbers}  \leq n  \text{, we must show that  } $ \\
+% 	$$multiply(y, n + 1) = y(n+1) $$
+% 	$\text{Now, }$ \\
+% 	$$multiply(y, n + 1) = multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) $$
+% 	$$\text{since } c \geq 2, $$
+% 	$$\lfloor((n+1)/c)\rfloor < n + 1 $$
+% 	$$\therefore \; \text{  the first term returns a valid result (based on our inductive hypothesis) so following the algorithm: } $$
+% 	$$multiply(y, n + 1) = \;  multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) $$ 
+% 	$$ = \;  cy\lfloor((z^{'})/c)\rfloor + y((z^{'}) \;mod\; c) \text{ (for simplicity let } z^{'} = n+1 \text{)} $$
+% 	$$ = \; y(c\lfloor(z^{'}/c)\rfloor + (z^{'} \;mod\; c))$$ 
+% 	$$\text{ and from (1*) }$$
+%  	$$ = \;  yz^{'}$$
+% 	$$ = \;  y(n+1)$$
+% 	$\;\; \blacksquare$
+% \end{flushleft}
+
+
+	
+
+\end{minipage}
+
+
+
+
+
+
+	% case 3: c < z
+	% 	c >= 2
+	% 	z <= n //indutive hypothesis
+	% 	y >= 0
+	% 	base Case: z = 0, multiply(y,0) = 0 which is true
+	% 	lemma: we show that floor(z/c)*c + (z mod c) = z ::
+	% 		by the quotient remainder theorem z = cq + r
+	% 											= cq + z mod c
+	% 											.:
+	% 										z = floor(z/c)*c + (z mod c) (**1)
+	% 	Assuming the algorithm holds for all nums <= n we must show that multiply(y, n + 1) = y*(n+1)
+	% 		multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c)
+	% 		since c >= 2, floor((n+1)/c) < n + 1 :. the first term returns a valid result (based on our inductive hypothesis) so following the algorithm
+	% 		multiply(y, n + 1) = multiply(cy, floor((n+1)/c)) + y*((n+1) mod c) // let z` = n+1
+	% 						   = cy*floor((z`)/c) + y*((z`) mod c)
+	% 						   =y*(c*floor(z`/c) + (z` mod c)) 
+	% 						   and from (1)
+	% 						   = y*z`
+	% 						   = y*(n+1)
+	% 						   OK!
+
+					 
+
+
+   % $\text{function } multiply(y,z)$ \\
+   % $\text{1. If  } z = 0 \text{ then return(0) else }$ \\
+   % $\text{2. return } multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$
+
+
+% \textbf{1-2.} \emph{Show that a * b can be less than min(a, b)}
+%   \begin{center}
+%   Let $a = -1, b = 5$. \\
+%   Then $a*b = -5, \; min(a,b) = -1$\\
+%   $\therefore \exists \; a, b \in Z : a*b < min(a,b)$
+%   \end{center}
+
+% \textbf{1-3.} \emph{Design/draw a road network with two points a and b such that the fastest route between a and b is not the shortest route}
+% 	\begin{center}
+% 		\begin{tikzcd}
+% 		A \arrow[rrd, "{D=6m, \;S=3m/s}"'] \arrow[rr, "{D=5m, \;S=1m/s}"] &  & C \arrow[rr, "{D=5m, \;S=.2m/s}"] &  & B \\
+% 		 &  & D \arrow[rru, "{D=6m, \;S=3m/s}"'] &  & 
+% 		\end{tikzcd}
+% 	\end{center}
+% Although the distance from A to B through C is shorter than going through D, road constraints limit the time it takes making the route through D faster despite it being longer.
+
+
+
+% \textbf{1-4.} \emph{Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns}
+% 	\begin{center}
+% 		\begin{tikzcd}
+% 		 &  \arrow[d, "1"] & A \arrow[rrrrrr, "6"] \arrow[l, "1"] &  &  &  &  &  & C \arrow[dd, "2"] \\
+% 		 \arrow[d, "1"] &  \arrow[l, "1"] &  &  &  &  &  &  &  \\
+% 		 \arrow[rr, "2"] &  & B &  &  &  &  &  &  \arrow[llllll, "6"]
+% 		\end{tikzcd}
+% 	\end{center}
+% The route from A through C to B has only two turns but is a total length of 14 units while the direct route from A to B (the shortest) has 4 turns and is a length of 6 units. $\therefore$ The shortest route between A and B is not the route with the fewest turns.
+
+% \textbf{1-5.} \emph{\textbf{The knapsack problem is as follows:} Given a set of integers S = {s1, s2,...,sn},
+% and a target number T, find a subset of S which adds up exactly to T. For example,
+% there exists a subset within S = {1, 2, 5, 9, 10} that adds up to T = 22 but not
+% T = 23.
+% Find counterexamples to each of the following algorithms for the knapsack problem.
+% That is, giving an S and T such that the subset is selected using the algorithm does
+% not leave the knapsack completely full, even though such a solution exists.}
+	
+% \begin{enumerate}[label=(\alph*)]
+% \itemsep1pt\parskip0pt\parsep0pt
+% 	\item{\emph{\textbf{Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.}} \\
+% 		Let $S = \{1,7,9\}, \; T = 10$
+% 	}
+% 	\item{\emph{\textbf{Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.}} \\
+% 		Let $S = \{1,7,9\}, \; T = 10$
+% 	}
+% 	\item{\emph{\textbf{Put the elements of S in the knapsack from largest to smallest.}} \\
+% 		Let $S = \{1,4,5,7,9\}, \; T = 19$
+% 	}
+% \end{enumerate}
+
+
+% \textbf{1-6.} \emph{\textbf{The set cover problem is as follows: } Given a set of subsets S1, ..., Sm of the universal set 
+% 	$U = \{1, ..., n\}$, 
+% 	find the smallest subset of subsets 
+% 	$T \subset S$ 
+% 	such that  
+% 	$\cup_{t_{i} \in T}t_{i} = U$ For example, there are the following subsets, $S_{1} = \{1, 3, 5\}, S_{2} = \{2, 4\}, S_{3} = \{1, 4\}, \; and \; S_{4} = \{2, 5\}$ The set cover would then be $S_{1}$ and $S_{2}$ . } \\
+
+% \emph{\textbf{Find a counterexample for the following algorithm:} Select the largest subset for the cover, and then delete all its elements from the universal set. Repeat by adding the subset containing the largest number of uncovered elements until all are covered.}
+
+% \begin{center}
+% 	$$U = \{1,2,3,4,5,6,7,8,9,10,11\}, \; S_{1} = \{1,2,3,4,5\}, \; S_{2} = \{6,7,8,9\}, $$
+%     $$S_{3} = \{6,7,10\}, \; S_{4} = \{8,9,11\}$$ 
+% 	$$U^{'} = \{6,7,8,9,10,11\}, \; T^{'} = S_{1}$$ \\
+% 	The Set with largest number of uncovered elements is $S_{2}$. $S_{3}$ and $S_{4}$ must also be included in the set cover because they contain elements (10 \& 11 respectivly)
+% 	in U that are not members of any other subset. Therefore this algorithm gives us as the set cover all of the subsets, but $S_{1} \cup S_{3} \cup S_{4}$ covers U and is smaller
+% 	than $S_{1} \cup S_{2} \cup S_{3} \cup S_{4}$
+% \end{center}
+
