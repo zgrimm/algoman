@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  4 FEB 2019 07:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  4 FEB 2019 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,13 +822,17 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.toc)
+\tf@toc=\write4
+\openout4 = `testsHere.toc'.
+
+
 (./chapter_1/finding_counter_examples.tex [1
 
 
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./chapter
-_1/proofs_of_correctness.tex
-[3]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./chapter_1/p
+roofs_of_correctness.tex [2]
 Overfull \hbox (79.24887pt too wide) detected at line 59
 \U/msa/m/n/12 )  []
  []
@@ -843,7 +847,7 @@ Overfull \hbox (0.2647pt too wide) in paragraph at lines 34--72
 []$[]$ 
  []
 
-[4] [5]
+[3] [4]
 Overfull \hbox (212.29337pt too wide) in paragraph at lines 81--90
 [] [] 
  []
@@ -853,7 +857,7 @@ Overfull \hbox (53.31949pt too wide) in paragraph at lines 81--90
 [] $\OML/cmm/m/it/12 A[]$ []
  []
 
-[6]
+[5]
 Overfull \hbox (51.33434pt too wide) in paragraph at lines 150--155
 [] 
  []
@@ -868,7 +872,7 @@ Overfull \hbox (5.77037pt too wide) in paragraph at lines 162--166
 [] 
  []
 
-) (./chapter_1/induction.tex [7] [8]
+) (./chapter_1/induction.tex [6] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -878,15 +882,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 Package caption Warning: Unused \captionsetup[figure] on input line 55.
 See the caption package documentation for explanation.
 
-[9] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
+[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 18029 strings out of 492616
- 347221 string characters out of 6132768
- 586721 words of memory out of 5000000
- 21559 multiletter control sequences out of 15000+600000
+ 18030 strings out of 492616
+ 347291 string characters out of 6132768
+ 589722 words of memory out of 5000000
+ 21557 multiletter control sequences out of 15000+600000
  64725 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,490b,1014s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,86p,490b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/
 texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fo
@@ -904,10 +908,10 @@ x-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.p
 fb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive
 /2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (9 pages, 221943 bytes).
+re.pdf (8 pages, 210506 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
