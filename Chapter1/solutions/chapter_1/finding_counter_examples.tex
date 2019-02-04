@@ -7,9 +7,9 @@
   &\text{Then } a + b = -2, \; min(a,b) = -1 \\
   &\therefore \exists \; a, b \in \mathbb{Z} : a+b < min(a,b) 
 \end{align*}}
-%%%%%%
-%%%%%%
-%%%%%%
+%
+%
+%
 \textbf{1-2.} \emph{Show that a * b can be less than min(a, b)}
 {\color{answer}{}
 \begin{align*} 
@@ -17,9 +17,9 @@
 	  &\text{Then } a*b = -5, \; min(a,b) = -1\\
 	  &\therefore \exists \; a, b \in \mathbb{Z} : a*b < min(a,b)
 \end{align*}}
-%%%%%%
-%%%%%%
-%%%%%%
+%
+%
+%
 \textbf{1-3.} \emph{Design/draw a road network with two points a and b such that the fastest route between a and b is not the shortest route}
 {\color{answer}{}
 \begin{center}
@@ -29,9 +29,9 @@
 \end{tikzcd}
 \end{center}
 Although the distance from A to B through C is shorter than going through D, road constraints limit the time it takes making the route through D faster despite it being longer. } \\
-%%%%%%
-%%%%%%
-%%%%%%
+%
+%
+%
 \textbf{1-4.} \emph{Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns} \\
 {\color{answer}{}
 \begin{center}
@@ -41,47 +41,56 @@ Although the distance from A to B through C is shorter than going through D, roa
 	 \arrow[rr, "2"] &  & B &  &  &  &  &  &  \arrow[llllll, "6"]
 	\end{tikzcd}
 \end{center}
-\text{
-	The route from A through C to B has only two turns but is a total length of 14 units while \newline 
-	the direct route from A to B (the shortest) has 4 turns and is a length of 6 units. \newline
-	$\therefore$ The shortest route between A and B is not the route with the fewest turns. 
-}}
-\textbf{1-5.} \emph{\textbf{The knapsack problem is as follows:}} \emph{Given a set of integers $S = \{s_{1}, s_{2},...,s_{n}\}$,
+\begin{flushleft}
+	The route from A through C to B has only two turns but is a total length of 14 units while \\
+	the direct route from A to B (the shortest) has 4 turns and is a length of 6 units. \\
+	$\therefore$ The shortest route between A and B is not the route with the fewest turns. \\
+\end{flushleft}}
+%
+%
+%
+{\raggedleft{}\textbf{1-5.} \emph{\textbf{The knapsack problem is as follows:}} \emph{Given a set of integers $S = \{s_{1}, s_{2},...,s_{n}\}$,
 and a target number $T$, find a subset of $S$ which adds up exactly to $T$. For example,
 there exists a subset within $S = \{1, 2, 5, 9, 10\}$ that adds up to $T = 22$ but not
 $T = 23$.
 Find counterexamples to each of the following algorithms for the knapsack problem.
 That is, giving an $S$ and $T$ such that the subset is selected using the algorithm does
-not leave the knapsack completely full, even though such a solution exists.}
+not leave the knapsack completely full, even though such a solution exists.}}
 \begin{enumerate}[label=(\alph*)]
 \itemsep1pt\parskip0pt\parsep0pt
-	\item{\emph{\textbf{Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.}} \\
-		\textcolor{answer}{Let $S = \{1,7,9\}, \; T = 10$}
+	\item{\emph{Put the elements of S in the knapsack in left to right order if they fit, i.e. the first-fit algorithm.} \\
+		\textcolor{answer}{
+		 $$Let\;  S = \{1,7,9\}, \; T = 10$$
+		}
 	}
-	\item{\emph{\textbf{Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.}} \\
-		\textcolor{answer}{Let $S = \{1,7,9\}, \; T = 10$}
+	\item{\emph{Put the elements of S in the knapsack from smallest to largest, i.e. the best-fit algorithm.} \\
+		\textcolor{answer}{
+		$$Let\;  S = \{1,7,9\}, \; T = 10$$
+		}
 	}
-	\item{\emph{\textbf{Put the elements of S in the knapsack from largest to smallest.}} \\
-		\textcolor{answer}{Let $S = \{1,4,5,7,9\}, \; T = 19$}
+	\item{\emph{Put the elements of S in the knapsack from largest to smallest.} \\
+		\textcolor{answer}{
+		$$Let\;  S = \{1,4,5,7,9\}, \; T = 19$$
+		}
 	}
 \end{enumerate}
-
-
-% \textbf{1-6.} \emph{\textbf{The set cover problem is as follows: } Given a set of subsets $S_{1}, ..., S_{m}$ of the universal set 
-% 	$U = \{1, ..., n\}$, 
-% 	find the smallest subset of subsets 
-% 	$T \subset S$ 
-% 	such that  
-% 	$\cup_{t_{i} \in T}t_{i} = U$ For example, there are the following subsets, $S_{1} = \{1, 3, 5\}, S_{2} = \{2, 4\}, S_{3} = \{1, 4\}, \; and \; S_{4} = \{2, 5\}$ The set cover would then be $S_{1}$ and $S_{2}$ . } \\
-
-% \emph{\textbf{Find a counterexample for the following algorithm:} Select the largest subset for the cover, and then delete all its elements from the universal set. Repeat by adding the subset containing the largest number of uncovered elements until all are covered.}
-
-% \begin{center}
-% 	$$U = \{1,2,3,4,5,6,7,8,9,10,11\}, \; S_{1} = \{1,2,3,4,5\}, \; S_{2} = \{6,7,8,9\}, $$
-%     $$S_{3} = \{6,7,10\}, \; S_{4} = \{8,9,11\}$$ 
-% 	$$U^{'} = \{6,7,8,9,10,11\}, \; T^{'} = S_{1}$$ \\
-% 	The Set with largest number of uncovered elements is $S_{2}$. $S_{3}$ and $S_{4}$ must also be included in the set cover because they contain elements (10 \& 11 respectivly)
-% 	in U that are not members of any other subset. Therefore this algorithm gives us as the set cover all of the subsets, but $S_{1} \cup S_{3} \cup S_{4}$ covers U and is smaller
-% 	than $S_{1} \cup S_{2} \cup S_{3} \cup S_{4}$
-% \end{center}
+%
+%
+%
+\textbf{1-6.} \emph{\textbf{The set cover problem is as follows: } Given a set of subsets $S_{1}, ..., S_{m}$ of the universal set 
+$U = \{1, ..., n\}$, 
+find the smallest subset of subsets 
+$T \subset S$ 
+such that  
+$\cup_{t_{i} \in T}t_{i} = U$ For example, there are the following subsets, $S_{1} = \{1, 3, 5\}, S_{2} = \{2, 4\}, S_{3} = \{1, 4\}, \; and \; S_{4} = \{2, 5\}$ The set cover would then be $S_{1}$ and $S_{2}$ . } \\
+\emph{\textbf{Find a counterexample for the following algorithm:} Select the largest subset for the cover, and then delete all its elements from the universal set. Repeat by adding the subset containing the largest number of uncovered elements until all are covered.}
+{\color{answer}{}
+\begin{align*}
+	&U = \{1,2,3,4,5,6,7,8,9,10,11\}, \\
+	&S_{1} = \{1,2,3,4,5\}, \; S_{2} = \{6,7,8,9\}, \; S_{3} = \{6,7,10\}, \; S_{4} = \{8,9,11\} \\
+	&U^{'} = \{6,7,8,9,10,11\}, \; T^{'} = S_{1} \\
+\end{align*}
+The Set with largest number of uncovered elements is $S_{2}$. $S_{3}$ and $S_{4}$ must also be included in the set cover because they contain elements (10 \& 11 respectivly)
+in U that are not members of any other subset. Therefore this algorithm gives us as the set cover all of the subsets, but $S_{1} \cup S_{3} \cup S_{4}$ covers U and is smaller
+than $S_{1} \cup S_{2} \cup S_{3} \cup S_{4}$}
 

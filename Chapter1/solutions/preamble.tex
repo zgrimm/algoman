@@ -25,7 +25,7 @@
 \usepackage{amssymb}
 \usepackage{tikz-cd}
 % special math formatting
-\usepackage{amsmath}
+\usepackage{amsmath,bm}
 
 % so we can use relaive paths when including stuff
 % \usepackage{import}
@@ -66,6 +66,8 @@
 \def\printbetweencitations{,}
 \def\printcitefinish{\egroup$}
 \def\printcitenote#1{\hbox{\sevenrm\space (#1)}}
+%for list item indentation
+\def\MLine#1{\par\hspace*{-\leftmargin}\parbox{\textwidth}{\[#1\]}}
 
 
 % TODO: mdframed doesn't work well with ubuntu
@@ -117,6 +119,9 @@
 
 %for solutions
 \definecolor{answer}{rgb}{0,0.26,0.15}
+
+
+
 
 % Hyphenation rules ------------
 %% \hyphenation{Fire-Detection-System}
