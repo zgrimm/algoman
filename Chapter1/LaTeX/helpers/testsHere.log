@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  3 FEB 2019 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,27 +814,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./chapter_1/finding_counter_examples.tex [1
+(./chapter_1/finding_counter_examples.tex)
+(./chapter_1/proofs_of_correctness.tex [1
 
 
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.16138pt too wide) in paragraph at lines 61--67
-\T1/qtm/m/it/12 ex-am-ple, there are the fol-low-ing sub-sets, $\OML/cmm/m/it/1
-2 S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \
-OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OMS/cmsy/m/n/12 g\OML/cmm/
-m/it/12 ; S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 2\OML/cmm/m/i
-t/12 ; \OT1/cmr/m/n/12 4\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ; S[] \OT1/cmr/m/n/1
-2 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OMS
-/cmsy/m/n/12 g\OML/cmm/m/it/12 ;  and S[] \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--67
-
- []
-
-[2]) (./chapter_1/proofs_of_correctness.tex
 Overfull \hbox (79.24887pt too wide) detected at line 59
 \U/msa/m/n/12 )  []
  []
@@ -849,7 +834,7 @@ Overfull \hbox (0.2647pt too wide) in paragraph at lines 34--72
 []$[]$ 
  []
 
-[3] [4]
+[2] [3]
 Overfull \hbox (212.29337pt too wide) in paragraph at lines 81--90
 [] [] 
  []
@@ -859,7 +844,7 @@ Overfull \hbox (53.31949pt too wide) in paragraph at lines 81--90
 [] $\OML/cmm/m/it/12 A[]$ []
  []
 
-[5]
+[4]
 Overfull \hbox (51.33434pt too wide) in paragraph at lines 150--155
 [] 
  []
@@ -874,7 +859,7 @@ Overfull \hbox (5.77037pt too wide) in paragraph at lines 162--166
 [] 
  []
 
-) (./chapter_1/induction.tex [6] [7]
+) (./chapter_1/induction.tex [5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -884,15 +869,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 Package caption Warning: Unused \captionsetup[figure] on input line 55.
 See the caption package documentation for explanation.
 
-[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
+[7] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 17930 strings out of 492616
- 346149 string characters out of 6132768
- 585345 words of memory out of 5000000
- 21476 multiletter control sequences out of 15000+600000
+ 17713 strings out of 492616
+ 340877 string characters out of 6132768
+ 582345 words of memory out of 5000000
+ 21259 multiletter control sequences out of 15000+600000
  56348 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,487b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,86p,487b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/
 texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fo
@@ -910,10 +895,10 @@ x-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.p
 fb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive
 /2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (8 pages, 223193 bytes).
+re.pdf (7 pages, 203661 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
