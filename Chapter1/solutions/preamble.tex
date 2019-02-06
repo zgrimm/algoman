@@ -44,6 +44,12 @@
   \usepackage[T1]{fontenc}
 \usepackage{color}
 
+%for changing fon etc of tittles of sections, subsections...
+\usepackage{titlesec}
+
+\titleformat*{\subsubsection}{\normalfont\fontsize{12}{17}\selectfont}
+\titlespacing*{\subsubsection} {0pt}{2.25ex plus 1ex minus .2ex}{0.5ex plus .2ex}
+
 \usepackage{caption}
 % -- configure captions for figures
 \DeclareCaptionFormat{listing}{\par\hrule #1#2#3}

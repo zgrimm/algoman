@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  4 FEB 2019 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  5 FEB 2019 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,19 +718,31 @@ LaTeX Font Info:    Try loading font information for T1+qtm on input line 105.
 (c:/texlive/2018/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 ))
+(c:/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen172
+\ttl@minus=\dimen173
+\ttl@toksa=\toks40
+\titlewidth=\dimen174
+\titlewidthlast=\dimen175
+\titlewidthfirst=\dimen176
+)
 (c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 (c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen172
-\captionmargin@=\dimen173
-\captionwidth=\dimen174
-\caption@tempdima=\dimen175
-\caption@indent=\dimen176
-\caption@parindent=\dimen177
-\caption@hangindent=\dimen178
+\captionmargin=\dimen177
+\captionmargin@=\dimen178
+\captionwidth=\dimen179
+\caption@tempdima=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
 )
 \c@caption@flags=\count134
 \c@ContinuedFloat=\count135
@@ -766,16 +778,16 @@ LaTeX Font Info:    ... okay on input line 16.
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count136
-\scratchdimen=\dimen179
-\scratchbox=\box47
+\scratchdimen=\dimen184
+\scratchbox=\box48
 \nofMPsegments=\count137
 \nofMParguments=\count138
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks41
 \MPscratchCnt=\count139
-\MPscratchDim=\dimen180
+\MPscratchDim=\dimen185
 \MPnumerator=\count140
 \makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks42
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -826,13 +838,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `testsHere.toc'.
 
-
-(./chapter_1/finding_counter_examples.tex [1
-
+ [1
 
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./chapter_1/p
-roofs_of_correctness.tex [2]
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./chapter_1/finding_counter_examples.tex
+Underfull \hbox (badness 3354) in paragraph at lines 37--42
+\T1/qtm/b/n/12 C is shorter than go-ingth-rough D,  road
+ []
+
+
+Overfull \hbox (90.842pt too wide) in paragraph at lines 37--42
+[] 
+ []
+
+
+Overfull \hbox (32.22481pt too wide) in paragraph at lines 47--48
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
+
+ []
+
+
+Overfull \vbox (36.11263pt too high) has occurred while \output is active []
+
+
+[2]) (./chapter_1/proofs_of_correctness.tex
 Overfull \hbox (79.24887pt too wide) detected at line 59
 \U/msa/m/n/12 )  []
  []
@@ -879,18 +914,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
 )
 
-Package caption Warning: Unused \captionsetup[figure] on input line 55.
+Package caption Warning: Unused \captionsetup[figure] on input line 61.
 See the caption package documentation for explanation.
 
 [8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 18030 strings out of 492616
- 347291 string characters out of 6132768
- 589722 words of memory out of 5000000
- 21557 multiletter control sequences out of 15000+600000
+ 18293 strings out of 492616
+ 350622 string characters out of 6132768
+ 593669 words of memory out of 5000000
+ 21816 multiletter control sequences out of 15000+600000
  64725 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,490b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,16n,86p,536b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/
 texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fo
@@ -908,7 +943,7 @@ x-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.p
 fb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive
 /2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (8 pages, 210506 bytes).
+re.pdf (8 pages, 210459 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
