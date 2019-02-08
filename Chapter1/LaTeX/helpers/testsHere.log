@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  8 FEB 2019 00:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  8 FEB 2019 02:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,7 +837,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./chapter_1/finding_counter_examples.tex [2]
-Overfull \hbox (25.20537pt too wide) in paragraph at lines 80--80
+Overfull \hbox (25.20537pt too wide) in paragraph at lines 70--70
 \T1/qtm/m/it/12 For ex-am-ple, there are the fol-low-ing sub-sets, $\OML/cmm/m/
 it/12 S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OMS/cmsy/m/n/12 g\OML/
@@ -847,43 +847,55 @@ cmm/m/it/12 ; S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 2\OML/cmm
 \OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ;  and S[] \OT1/cmr/m/n/12 =
  []
 
-[3])
+[3]) (./chapter_1/proofs_of_correctness.tex [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+[6] [7]
+Overfull \hbox (164.87236pt too wide) in paragraph at lines 174--178
+[] [] 
+ []
+
+)
 
 Package caption Warning: Unused \captionsetup[figure] on input line 61.
 See the caption package documentation for explanation.
 
-[4] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
+[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 18339 strings out of 492616
- 351269 string characters out of 6132768
- 594380 words of memory out of 5000000
- 21860 multiletter control sequences out of 15000+600000
- 55312 words of font info for 72 fonts, out of 8000000 for 9000
+ 18347 strings out of 492616
+ 351426 string characters out of 6132768
+ 592381 words of memory out of 5000000
+ 21865 multiletter control sequences out of 15000+600000
+ 69480 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,498b,1027s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,86p,584b,1029s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/
 texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/tex-gyre/qtmri.pfb>
+/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-
+gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (4 pages, 222176 bytes).
+re.pdf (8 pages, 256972 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

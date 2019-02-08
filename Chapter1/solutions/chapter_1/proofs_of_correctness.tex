@@ -1,107 +1,119 @@
-\subsection*{Proofs of Correctness}
+\subsection{Proofs of Correctness}
 
-\textbf{1-7.} \emph{Prove the correctness of the following recursive algorithm to multiply two
-natural numbers, for all integer constants $c\geq 2$} 
-   $$\text{function } multiply(y,z)$$ 
-   $$\text{1. If  } z = 0 \text{ then return(0) else }$$ 
-   $$\text{2. return } multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$$
-
-\begin{minipage}{0.95\textwidth}
+\subsubsection*{\textbf{1-7.} \emph{Prove the correctness of the following recursive algorithm to multiply two
+natural numbers, for all integer constants $c\geq 2$}}
+$$\text{function } M(y,z)$$ 
+$$\text{1. If  } z = 0 \text{ then return(0) else }$$ 
+$$\text{2. return } M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$$
 
 \textbf{case 1: \emph{c = z}}
-\begin{align*}
-multiply(y,z) =& \;multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
-			  =& \;multiply(zy, \lfloor(z/z)\rfloor) + y(z \;mod\; z) \\
-			  =& \;multiply(zy, 1) + y(z\; mod\; z) \\
-			  =& \;multiply(zy, 1) \\ 
-			  =& \;multiply(czy, \lfloor(1/c)\rfloor) + zy(1 \;mod\; c) \\ 
-			  =& \;multiply(zzy, \lfloor(1/z)\rfloor) + zy(1 \;mod\; z) \\ 
-			  =& \;multiply(zzy, 0) + zy(1 \;mod\; z) \\ 
+\begin{soleqo}
+M(y,z) =& \;M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
+			  =& \;M(zy, \lfloor(z/z)\rfloor) + y(z \;mod\; z) \\
+			  =& \;M(zy, 1) + y(z\; mod\; z) \\
+			  =& \;M(zy, 1) \\ 
+			  =& \;M(czy, \lfloor(1/c)\rfloor) + zy(1 \;mod\; c) \\ 
+			  =& \;M(zzy, \lfloor(1/z)\rfloor) + zy(1 \;mod\; z) \\ 
+			  =& \;M(zzy, 0) + zy(1 \;mod\; z) \\ 
 			  =& \;yz \\
-\end{align*}
-\end{minipage}
-
-\begin{minipage}{0.95\textwidth}
+\end{soleqo}
+%
 \textbf{case 2: \emph{c > z}}
-\begin{align*}
-multiply(y,z) =& \;multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
-			  =& \;multiply(cy, 0) + y(z \;mod\; c) \\
-			  =& \;multiply(cy, 0) + y(z \;mod\; c) \\
+\begin{soleqo}
+M(y,z) =& \;M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
+			  =& \;M(cy, 0) + y(z \;mod\; c) \\
+			  =& \;M(cy, 0) + y(z \;mod\; c) \\
 			  =& \;yz \\
-\end{align*}
-\end{minipage}
-
-\begin{minipage}{0.95\textwidth}
+\end{soleqo}
+%
 \textbf{case 3: \emph{c < z}}
-% \begin{align*}
-\begin{flushleft}
-	\textbf{Assumptions: } \\
-	$c \geq 2$ \\
-	$z \leq n \text{ (inductive hypothesis) }$ \\
-	$y \geq 0$ \\
-	\text{} \\
-	$\textbf{Base Case: } z = 0, \; multiply(y,0) = 0 \text{, (which is true)}$ \\ 
-	\text{} \\
-	\text{\textbf{Lemma:} we show that } \\
-	$$\lfloor(z/c)\rfloor*c + (z \;mod\; c) = z $$ 
-	\text{by the quotient remainder theorem } 
-	\begin{align*}
+
+\textbf{Assumptions: } 
+\begin{soleqo}
+	&c \ge 2 \\
+	&z \leq n \text{ (inductive hypothesis) }\\
+	&y \geq 0 \\
+\end{soleqo}
+
+\textbf{Base Case: }
+\begin{soleqo}
+ z = 0, \; M(y,0) = 0 \text{, (which is true)}
+\end{soleqo}
+
+\textbf{Lemma:} 
+
+we show that
+\begin{soleqo}
+	\lfloor(z/c)\rfloor*c + (z \;mod\; c) = z
+\end{soleqo}
+
+by the quotient remainder theorem 
+%
+\begin{soleqo}
 	z =& \; cq + r \\
 	  =& \; cq + z \;mod\; c \\ 
 	  =& \; \lfloor(z/c)\rfloor*c + (z \;mod\; c) \;\; \text{ (1*)}
-	\end{align*}
-	$\text{Assuming the algorithm holds for all numbers}  \leq n  \text{, we must show that  } $ \\
-	$$multiply(y, n + 1) = y(n+1) $$
-	$\text{Now, }$ \\
-	$$multiply(y, n + 1) = multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) $$
-	$$\text{since } c \geq 2, $$
-	$$\lfloor((n+1)/c)\rfloor < n + 1 $$
-	$$\therefore \; \text{  the first term returns a valid result (based on our inductive hypothesis) so following the algorithm: } $$
-	\begin{align*}
-	  multiply(y, n + 1) =& \;  multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c)   \\
-					    \text{ (for simplicity let } z^{'} = n+1 \text{)} \\
-	                     =& \;  cy\lfloor((z^{'})/c)\rfloor + y((z^{'}) \;mod\; c)   \\
-	                     =& \; y(c\lfloor(z^{'}/c)\rfloor + (z^{'} \;mod\; c))  \\
-	                    \text{ and from (1*) } \\
- 	                     =& \;  yz^{'} \\
-	                     =& \;  y(n+1) \\
-	                     \;\; \blacksquare
-	\end{align*}
-\end{flushleft}
-\end{minipage}
+\end{soleqo}
+
+Assuming the algorithm holds for all numbers $\leq n$  , we must show that \\
+\begin{soleqo}
+	M(y, n + 1) = y(n+1)
+\end{soleqo}
+Now,   \\
+\begin{soleqo}
+	M(y, n + 1) = M(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) \\
+\end{soleqo}
+since \\ 
+\begin{soleqo}
+	c \geq& 2, \\
+	\lfloor((n+1)/c)\rfloor <& n + 1 \\
+\end{soleqo}
+$\therefore$ the first term returns a valid result (based on our inductive hypothesis) so following the algorithm: \\
+\begin{soleqo}
+	  M(y, n + 1) =& \;  M(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c)
+\end{soleqo}
+for simplicity let  $z^{'} = n+1$ \\
+\begin{soleqo}
+	  =& \;  cy\lfloor((z^{'})/c)\rfloor + y((z^{'}) \;mod\; c)   \\
+     =& \; y(c\lfloor(z^{'}/c)\rfloor + (z^{'} \;mod\; c))  
+\end{soleqo}
+and from (1*) \\
+\begin{soleqo}
+	 =& \;  yz^{'} \\
+\end{soleqo}
+$\blacksquare$
 
 
-\textbf{1-8.} \emph{Prove the correctness of the following algorithm for evaluating a polynomial:}
-% \begin{flushleft}
+
+\subsubsection*{\textbf{1-8.} \emph{Prove the correctness of the following algorithm for evaluating a polynomial:}}
 $$P(x) = a_{n}^{n} + a_{n-1}^{n-1} + ... +a_{1} + a_{0}$$ 
 $$\text{\emph{function} } horner(A, x):$$  
 $$p = A_{n}$$  
 $$\text{for } i \text{ from } n - 1 \;to\; 0$$ 
 $$p = px + A_{i}$$ 
 $$\text{return } p$$ 
-\text{For polynomials of degree 0, $P(x) = A_{0}$, which the algoritm satisfies.}\\
-\text{Assuming the algorithm holds for polyomials of degree  $\leq n$ } 
-\text{and that A is an ordered set of coefficients of size  $n, \; [A_{n}, A_{n-1}, ... + A_{0}] $ }\\
-$horner(A,x) = P(x) = a_{n}^{x^n} + a_{n-1}x^{n-1} + ... + a_{1}x + a_{0}$ \\
-\text{we must show it holds for polynomials of degree $n+1$, ie:}
-$A^{'}$
-\text{ is an ordered set of coefficients of size } 
-$n + 1, \; [A_{n+1}, A_{n}, ... A_{0}]$ 
-\begin{center}
-\textbf{horner(} 
-$A^{'}, x) : $\\
-$p \Rightarrow$ \\
-$A^{'}_{n+1}$ \\
-$A^{'}_{n+1}*x + A^{'}_{n}$ \\
-$A^{'}_{n+1}*x^{2} + A^{'}_{n}*x + A^{'}_{n-1}$ \\
-$. $\\
-$. $\\
-$. $\\
-$A^{'}_{n+1}*x^{n+1} + A^{'}_{n}*x^{n} + ... + A^{'}_{1}*x + A^{'}_{0}$ \\
-$=$ \\
-$A^{'}_{n+1}*x^{n+1} + horner(A, x) $\\
-\end{center}
-$\;\; \blacksquare$
+
+\subsubsection*{\emph{For polynomials of degree 0, $P(x) = A_{0}$, which the algoritm satisfies. Assuming the algorithm holds for polyomials of degree  $\leq n$ and that A is an ordered set of coefficients of size  $n, \; [A_{n}, A_{n-1}, ... + A_{0}] $. \\}}
+
+\begin{soleqo}
+	 horner(A,x) = P(x) = a_{n}^{x^n} + a_{n-1}x^{n-1} + ... + a_{1}x + a_{0} \\
+\end{soleqo}
+we must show it holds for polynomials of degree $n+1$, ie: $A^{'}$ is an ordered set of coefficients of size $n + 1$, \; ( $[A_{n+1}, A_{n}, ... A_{0}]$ )\\
+
+\textbf{horner(} $A^{'}, x$ ) : \\
+\begin{soleqo}
+&p \Rightarrow \\
+&A^{'}_{n+1} \\
+&A^{'}_{n+1}*x + A^{'}_{n} \\
+&A^{'}_{n+1}*x^{2} + A^{'}_{n}*x + A^{'}_{n-1} \\
+&. \\
+&. \\
+&. \\
+&A^{'}_{n+1}*x^{n+1} + A^{'}_{n}*x^{n} + ... + A^{'}_{1}*x + A^{'}_{0} \\
+&= \\
+&A^{'}_{n+1}*x^{n+1} + horner(A, x) \\
+\end{soleqo}
+$\blacksquare$
 \emph{??? seems circular... define what we need to show better}
 
  	
@@ -164,6 +176,173 @@ $$\text{swap the values of } A[j] \;and\; A[j + 1] $$
 \text{element in position n+1 now we have sort the rest of the list which is of size n.} \\
 \text{Our inductive hypothesis states we can do this. $\;\; \blacksquare$}
 \end{minipage}
+
+
+
+% \textbf{1-7.} \emph{Prove the correctness of the following recursive algorithm to multiply two
+% natural numbers, for all integer constants $c\geq 2$} 
+%    $$\text{function } multiply(y,z)$$ 
+%    $$\text{1. If  } z = 0 \text{ then return(0) else }$$ 
+%    $$\text{2. return } multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$$
+
+% \begin{minipage}{0.95\textwidth}
+
+% \textbf{case 1: \emph{c = z}}
+% \begin{align*}
+% multiply(y,z) =& \;multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
+% 			  =& \;multiply(zy, \lfloor(z/z)\rfloor) + y(z \;mod\; z) \\
+% 			  =& \;multiply(zy, 1) + y(z\; mod\; z) \\
+% 			  =& \;multiply(zy, 1) \\ 
+% 			  =& \;multiply(czy, \lfloor(1/c)\rfloor) + zy(1 \;mod\; c) \\ 
+% 			  =& \;multiply(zzy, \lfloor(1/z)\rfloor) + zy(1 \;mod\; z) \\ 
+% 			  =& \;multiply(zzy, 0) + zy(1 \;mod\; z) \\ 
+% 			  =& \;yz \\
+% \end{align*}
+% \end{minipage}
+
+% \begin{minipage}{0.95\textwidth}
+% \textbf{case 2: \emph{c > z}}
+% \begin{align*}
+% multiply(y,z) =& \;multiply(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
+% 			  =& \;multiply(cy, 0) + y(z \;mod\; c) \\
+% 			  =& \;multiply(cy, 0) + y(z \;mod\; c) \\
+% 			  =& \;yz \\
+% \end{align*}
+% \end{minipage}
+
+% \begin{minipage}{0.95\textwidth}
+% \textbf{case 3: \emph{c < z}}
+% % \begin{align*}
+% \begin{flushleft}
+% 	\textbf{Assumptions: } \\
+% 	$c \geq 2$ \\
+% 	$z \leq n \text{ (inductive hypothesis) }$ \\
+% 	$y \geq 0$ \\
+% 	\text{} \\
+% 	$\textbf{Base Case: } z = 0, \; multiply(y,0) = 0 \text{, (which is true)}$ \\ 
+% 	\text{} \\
+% 	\text{\textbf{Lemma:} we show that } \\
+% 	$$\lfloor(z/c)\rfloor*c + (z \;mod\; c) = z $$ 
+% 	\text{by the quotient remainder theorem } 
+% 	\begin{align*}
+% 	z =& \; cq + r \\
+% 	  =& \; cq + z \;mod\; c \\ 
+% 	  =& \; \lfloor(z/c)\rfloor*c + (z \;mod\; c) \;\; \text{ (1*)}
+% 	\end{align*}
+% 	$\text{Assuming the algorithm holds for all numbers}  \leq n  \text{, we must show that  } $ \\
+% 	$$multiply(y, n + 1) = y(n+1) $$
+% 	$\text{Now, }$ \\
+% 	$$multiply(y, n + 1) = multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) $$
+% 	$$\text{since } c \geq 2, $$
+% 	$$\lfloor((n+1)/c)\rfloor < n + 1 $$
+% 	$$\therefore \; \text{  the first term returns a valid result (based on our inductive hypothesis) so following the algorithm: } $$
+% 	\begin{align*}
+% 	  multiply(y, n + 1) =& \;  multiply(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c)   \\
+% 					    \text{ (for simplicity let } z^{'} = n+1 \text{)} \\
+% 	                     =& \;  cy\lfloor((z^{'})/c)\rfloor + y((z^{'}) \;mod\; c)   \\
+% 	                     =& \; y(c\lfloor(z^{'}/c)\rfloor + (z^{'} \;mod\; c))  \\
+% 	                    \text{ and from (1*) } \\
+%  	                     =& \;  yz^{'} \\
+% 	                     =& \;  y(n+1) \\
+% 	                     \;\; \blacksquare
+% 	\end{align*}
+% \end{flushleft}
+% \end{minipage}
+
+
+% \textbf{1-8.} \emph{Prove the correctness of the following algorithm for evaluating a polynomial:}
+% % \begin{flushleft}
+% $$P(x) = a_{n}^{n} + a_{n-1}^{n-1} + ... +a_{1} + a_{0}$$ 
+% $$\text{\emph{function} } horner(A, x):$$  
+% $$p = A_{n}$$  
+% $$\text{for } i \text{ from } n - 1 \;to\; 0$$ 
+% $$p = px + A_{i}$$ 
+% $$\text{return } p$$ 
+% \text{For polynomials of degree 0, $P(x) = A_{0}$, which the algoritm satisfies.}\\
+% \text{Assuming the algorithm holds for polyomials of degree  $\leq n$ } 
+% \text{and that A is an ordered set of coefficients of size  $n, \; [A_{n}, A_{n-1}, ... + A_{0}] $ }\\
+% $horner(A,x) = P(x) = a_{n}^{x^n} + a_{n-1}x^{n-1} + ... + a_{1}x + a_{0}$ \\
+% \text{we must show it holds for polynomials of degree $n+1$, ie:}
+% $A^{'}$
+% \text{ is an ordered set of coefficients of size } 
+% $n + 1, \; [A_{n+1}, A_{n}, ... A_{0}]$ 
+% \begin{center}
+% \textbf{horner(} 
+% $A^{'}, x) : $\\
+% $p \Rightarrow$ \\
+% $A^{'}_{n+1}$ \\
+% $A^{'}_{n+1}*x + A^{'}_{n}$ \\
+% $A^{'}_{n+1}*x^{2} + A^{'}_{n}*x + A^{'}_{n-1}$ \\
+% $. $\\
+% $. $\\
+% $. $\\
+% $A^{'}_{n+1}*x^{n+1} + A^{'}_{n}*x^{n} + ... + A^{'}_{1}*x + A^{'}_{0}$ \\
+% $=$ \\
+% $A^{'}_{n+1}*x^{n+1} + horner(A, x) $\\
+% \end{center}
+% $\;\; \blacksquare$
+% \emph{??? seems circular... define what we need to show better}
+
+ 	
+ 		
+
+
+% \textbf{1-9.} \emph{Prove the correctness of the following sorting algorithm:} 
+% $$\text{\textbf{function bubblesort } (A : list[1 ...n])} $$ 
+% $$\text{var  int } i,\; j$$
+% $$\text{for } i \;from\; n \;to\; 1 $$
+% $$\text{for } j \;from\; 1  \;to\; i - 1 $$
+% $$\text{if } A[j] > A[j + 1] $$
+% $$\text{swap the values of } A[j] \;and\; A[j + 1] $$
+
+% \text{\textbf{Base case} is a list of two elements $[a,b]$ (we are indexing from 1 not 0 as usual)} 
+
+% \begin{minipage}{0.95\textwidth}
+% \textbf{case 1: \emph{a > b}}
+% \begin{center}
+% 	$i = 2$ \\
+% 	$j = 1$ \\
+% 	if  $(A[1] > A[2]) = \;true$ \\
+% 	swap values, so $A = [b,a]$ \\
+% 	$i = 1$ \\
+% 	$j = 1$ \\
+% 	if $(A[1] > A[2]) = \;false$ \\
+% 	so $A = [b,a]$ and from our assumption that $a > b$ for case 1 the algorithm is true. \\
+% \end{center}
+% \end{minipage}
+
+% \begin{minipage}{0.95\textwidth}
+% \textbf{case 2: \emph{a < b}}
+% \begin{center}
+% 	$i = 2$ \\
+% 	$j = 1$ \\
+% 	if  $(A[1] > A[2]) = \;false$ \\
+% 	swap values, so $A = [b,a]$ \\
+% 	$i = 1$ \\
+% 	$j = 1$ \\
+% 	if $(A[1] > A[2]) = \;false$ \\
+% 	so $A = [a,b]$ and from our assumption that $a < b$ for case 2 the algorithm is true. \\
+% \end{center}
+% \end{minipage}
+
+% \begin{minipage}{0.95\textwidth}
+% \textbf{case 3: \emph{a = b}} \\
+% \text{The list is considered sorted regardless of how the algorithm may rearange its items} \\
+% \text{Now we procede with induction, assuming that for all lists of size $\leq n$ the algorithm}  \\
+% \text{returns a sorted list We must show that for a list of size n+1, the algorithm returns an ordered list} \\
+% \text{that is function bubblesort $(A : list[1 ...n, n+1])$}
+% \begin{center}
+% 	\text{var int} $i, j$ \\
+% 	\text{for } $i \;from\; n+1 \;to\; 1$ \\
+% 	\text{for } $j \;from\; 1 \;to\; i - 1$ \\
+% 	\text{if } $(A[j] > A[j + 1])$ \\
+% 	\text{swap the values of } $A[j] \;and\; A[j + 1]$ \\
+% \end{center}
+% \text{The inner loop "bubbles up" the largest num to position i}
+% \text{on the last j iteration of the first i iteration the altered set has n+1 elems with the largest}  \\
+% \text{element in position n+1 now we have sort the rest of the list which is of size n.} \\
+% \text{Our inductive hypothesis states we can do this. $\;\; \blacksquare$}
+% \end{minipage}
 
 	
 
