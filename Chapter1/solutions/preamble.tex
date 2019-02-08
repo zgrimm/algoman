@@ -25,9 +25,9 @@
 \usepackage{amssymb}
 \usepackage{tikz-cd}
 % special math formatting
-\usepackage{amsmath,bm}
+\usepackage{amsmath,bm,environ}
 
-% so we can use relaive paths when including stuff
+% so we can use relaive path,s when including stuff
 % \usepackage{import}
 \floatstyle{ruled}
 
@@ -35,8 +35,8 @@
 \newfloat{program}{thp}{lop}
 \floatname{program}{Program}
 
-%\newfloat{figure}{thp}{lop}
-%\floatname{figure}{Figure}
+%\newfloat{figure}{thp}{lop},
+%\floatname{figure}{Figure},
 
 % -- syntax highlighting
 \usepackage{listings}
@@ -123,9 +123,45 @@
   Java
 }
 
-%for solutions
+% for solutions
 \definecolor{answer}{rgb}{0,0.26,0.15}
 
+\NewEnviron{soleqo}{%
+  {\color{answer}{} 
+    \begin{align*}
+    \BODY
+    \end{align*}
+  }
+}
+
+\NewEnviron{solgr}[1]{{\color{answer}{}\begin{center}\begin{tikzcd}\BODY\end{tikzcd}\end{center}}}{#1}
+
+% \NewEnviron{name}{macro code}[final code]
+
+
+% {\color{answer}{}
+% \begin{center}
+%   \begin{tikzcd}
+%     A \arrow[rrd, "{D=6m, \;S=3m/s}"'] \arrow[rr, "{D=5m, \;S=1m/s}"] &  & C \arrow[rr, "{D=5m, \;S=.2m/s}"] &  & B \\
+%      &  & D \arrow[rru, "{D=6m, \;S=3m/s}"'] &  & 
+%   \end{tikzcd}
+% \end{center}
+
+% Although the distance from A to B through C is shorter than going through D, road constraints limit the time it takes making the route through D faster despite it.
+% }
+% \newenvironment{soleqo}{%
+% {\color{answer}{} \align}}
+% {\endalign}
+
+
+% \newenvironment{topics}{
+% \newcommand{\topic}[2]{ \item{##1 / ##2\} }
+% Topics:
+% \begin{itemize}
+% }
+% {
+% \end{itemize}
+% }
 
 
 

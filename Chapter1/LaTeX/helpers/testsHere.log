@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  5 FEB 2019 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  7 FEB 2019 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,21 +7,8 @@ entering extended mode
 LaTeX2e <2018-12-01>
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(c:/texlive/2018/texmf-dist/tex/latex/base/leqno.clo
-File: leqno.clo 2016/12/29 v1.2b Standard LaTeX option (left equation numbers)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/base/fleqn.clo
-File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
-\mathindent=\dimen102
-Applying: [2015/01/01] Make \[ robust on input line 50.
-LaTeX Info: Redefining \[ on input line 51.
-Already applied: [0000/00/00] Make \[ robust on input line 62.
-Applying: [2015/01/01] Make \] robust on input line 74.
-LaTeX Info: Redefining \] on input line 75.
-Already applied: [0000/00/00] Make \] robust on input line 83.
-)
-(c:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(c:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -33,7 +20,7 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen103
+\bibindent=\dimen102
 )
 \@input{preamble.aux}
 \openout2 = `preamble.aux'.
@@ -74,8 +61,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
 (c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -255,9 +242,9 @@ Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 
 (c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen106
+\col@sep=\dimen105
 \ar@mcellbox=\box29
-\extrarowheight=\dimen107
+\extrarowheight=\dimen106
 \NC@list=\toks17
 \extratabsurround=\skip45
 \backup@length=\skip46
@@ -313,7 +300,7 @@ Package etexcmds Info: Could not find \expanded.
 (c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/01/14 v3.7 Customized lists
 \labelindent=\skip48
-\enit@outerparindent=\dimen108
+\enit@outerparindent=\dimen107
 \enit@toks=\toks19
 \enit@inbox=\box31
 \enit@count@id=\count91
@@ -338,8 +325,8 @@ Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks21
-\pgfutil@tempdima=\dimen109
-\pgfutil@tempdimb=\dimen110
+\pgfutil@tempdima=\dimen108
+\pgfutil@tempdimb=\dimen109
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -366,14 +353,14 @@ Package: pgfsys 2019/01/05 v3.1 (3.1)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks24
 ))
-\pgf@x=\dimen111
-\pgf@y=\dimen112
-\pgf@xa=\dimen113
-\pgf@ya=\dimen114
-\pgf@xb=\dimen115
-\pgf@yb=\dimen116
-\pgf@xc=\dimen117
-\pgf@yc=\dimen118
+\pgf@x=\dimen110
+\pgf@y=\dimen111
+\pgf@xa=\dimen112
+\pgf@ya=\dimen113
+\pgf@xb=\dimen114
+\pgf@yb=\dimen115
+\pgf@xc=\dimen116
+\pgf@yc=\dimen117
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count93
@@ -409,7 +396,7 @@ Package: pgfcore 2019/01/05 v3.1 (3.1)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen119
+\pgfmath@dimen=\dimen118
 \pgfmath@count=\count100
 \pgfmath@box=\box33
 \pgfmath@toks=\toks28
@@ -438,20 +425,20 @@ etics.code.tex)))
 ))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@picminx=\dimen120
-\pgf@picmaxx=\dimen121
-\pgf@picminy=\dimen122
-\pgf@picmaxy=\dimen123
-\pgf@pathminx=\dimen124
-\pgf@pathmaxx=\dimen125
-\pgf@pathminy=\dimen126
-\pgf@pathmaxy=\dimen127
-\pgf@xx=\dimen128
-\pgf@xy=\dimen129
-\pgf@yx=\dimen130
-\pgf@yy=\dimen131
-\pgf@zx=\dimen132
-\pgf@zy=\dimen133
+\pgf@picminx=\dimen119
+\pgf@picmaxx=\dimen120
+\pgf@picminy=\dimen121
+\pgf@picmaxy=\dimen122
+\pgf@pathminx=\dimen123
+\pgf@pathmaxx=\dimen124
+\pgf@pathminy=\dimen125
+\pgf@pathmaxy=\dimen126
+\pgf@xx=\dimen127
+\pgf@xy=\dimen128
+\pgf@yx=\dimen129
+\pgf@yy=\dimen130
+\pgf@zx=\dimen131
+\pgf@zy=\dimen132
 LaTeX Font Info:    Try loading font information for OT1+qtm on input line 926.
 
 
@@ -461,14 +448,14 @@ File: ot1qtm.fd 2009/09/25 v1.2 font definition file for OT1/qtm
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@path@lastx=\dimen134
-\pgf@path@lasty=\dimen135
+\pgf@path@lastx=\dimen133
+\pgf@path@lasty=\dimen134
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@shorten@end@additional=\dimen136
-\pgf@shorten@start@additional=\dimen137
+\pgf@shorten@end@additional=\dimen135
+\pgf@shorten@start@additional=\dimen136
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
@@ -480,14 +467,14 @@ File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2019/01/05 v3.1 (3.1)
-\pgflinewidth=\dimen138
+\pgflinewidth=\dimen137
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@pt@x=\dimen139
-\pgf@pt@y=\dimen140
-\pgf@pt@temp=\dimen141
+\pgf@pt@x=\dimen138
+\pgf@pt@y=\dimen139
+\pgf@pt@temp=\dimen140
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2019/01/05 v3.1 (3.1)
@@ -501,11 +488,11 @@ File: pgfcorepathprocessing.code.tex 2019/01/05 v3.1 (3.1)
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2019/01/05 v3.1 (3.1)
-\pgfarrowsep=\dimen142
+\pgfarrowsep=\dimen141
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@max=\dimen143
+\pgf@max=\dimen142
 \pgf@sys@shading@range@num=\count103
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -537,8 +524,8 @@ File: pgfmoduleplot.code.tex 2019/01/05 v3.1 (3.1)
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2019/01/05 v3.1 (3.1)
-\pgf@nodesepstart=\dimen144
-\pgf@nodesepend=\dimen145
+\pgf@nodesepstart=\dimen143
+\pgf@nodesepend=\dimen144
 )
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -552,8 +539,8 @@ Package: pgfcomp-version-1-18 2019/01/05 v3.1 (3.1)
 Package: pgffor 2019/01/05 v3.1 (3.1)
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen146
-\pgffor@skip=\dimen147
+\pgffor@iter=\dimen145
+\pgffor@skip=\dimen146
 \pgffor@stack=\toks31
 \pgffor@toks=\toks32
 ))
@@ -564,14 +551,14 @@ Package: tikz 2019/01/05 v3.1 (3.1)
 de.tex
 File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
 \pgf@plot@mark@count=\count104
-\pgfplotmarksize=\dimen148
+\pgfplotmarksize=\dimen147
 )
-\tikz@lastx=\dimen149
-\tikz@lasty=\dimen150
-\tikz@lastxsaved=\dimen151
-\tikz@lastysaved=\dimen152
-\tikzleveldistance=\dimen153
-\tikzsiblingdistance=\dimen154
+\tikz@lastx=\dimen148
+\tikz@lasty=\dimen149
+\tikz@lastxsaved=\dimen150
+\tikz@lastysaved=\dimen151
+\tikzleveldistance=\dimen152
+\tikzsiblingdistance=\dimen153
 \tikz@figbox=\box39
 \tikz@figbox@bg=\box40
 \tikz@tempbox=\box41
@@ -605,10 +592,10 @@ File: tikzlibraryquotes.code.tex 2019/01/05 v3.1 (3.1)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
 e.tex
 File: pgflibraryarrows.meta.code.tex 2019/01/05 v3.1 (3.1)
-\pgfarrowinset=\dimen155
-\pgfarrowlength=\dimen156
-\pgfarrowwidth=\dimen157
-\pgfarrowlinewidth=\dimen158
+\pgfarrowinset=\dimen154
+\pgfarrowlength=\dimen155
+\pgfarrowwidth=\dimen156
+\pgfarrowlinewidth=\dimen157
 ))) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip49
@@ -620,11 +607,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks33
-\ex@=\dimen159
+\ex@=\dimen158
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen160
+\pmbraise@=\dimen159
 )
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -641,7 +628,7 @@ LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box43
 \strutbox@=\box44
-\big@size=\dimen161
+\big@size=\dimen160
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count118
@@ -654,12 +641,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \column@=\count123
 \maxfields@=\count124
 \andhelp@=\toks35
-\eqnshift@=\dimen162
-\alignsep@=\dimen163
-\tagshift@=\dimen164
-\tagwidth@=\dimen165
-\totwidth@=\dimen166
-\lineht@=\dimen167
+\eqnshift@=\dimen161
+\alignsep@=\dimen162
+\tagshift@=\dimen163
+\tagwidth@=\dimen164
+\totwidth@=\dimen165
+\lineht@=\dimen166
 \@envbody=\toks36
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -675,6 +662,12 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
+(c:/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
 \@float@every@program=\toks38
 \c@program=\count125
 
@@ -683,14 +676,14 @@ LaTeX Info: Redefining \bm on input line 207.
 \lst@gtempboxa=\box45
 \lst@token=\toks39
 \lst@length=\count127
-\lst@currlwidth=\dimen168
+\lst@currlwidth=\dimen167
 \lst@column=\count128
 \lst@pos=\count129
-\lst@lostspace=\dimen169
-\lst@width=\dimen170
+\lst@lostspace=\dimen168
+\lst@width=\dimen169
 \lst@newlines=\count130
 \lst@lineno=\count131
-\lst@maxwidth=\dimen171
+\lst@maxwidth=\dimen170
 
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
@@ -723,12 +716,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box47
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen172
-\ttl@minus=\dimen173
+\ttl@plus=\dimen171
+\ttl@minus=\dimen172
 \ttl@toksa=\toks40
-\titlewidth=\dimen174
-\titlewidthlast=\dimen175
-\titlewidthfirst=\dimen176
+\titlewidth=\dimen173
+\titlewidthlast=\dimen174
+\titlewidthfirst=\dimen175
 )
 (c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
@@ -736,13 +729,13 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 (c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen177
-\captionmargin@=\dimen178
-\captionwidth=\dimen179
-\caption@tempdima=\dimen180
-\caption@indent=\dimen181
-\caption@parindent=\dimen182
-\caption@hangindent=\dimen183
+\captionmargin=\dimen176
+\captionmargin@=\dimen177
+\captionwidth=\dimen178
+\caption@tempdima=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
 )
 \c@caption@flags=\count134
 \c@ContinuedFloat=\count135
@@ -751,7 +744,54 @@ Package caption Info: listings package is loaded.
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
-))
+)
+! You can't use `macro parameter character #' in vertical mode.
+l.137 ...{tikzcd}\BODY\end{tikzcd}\end{center}}}{#
+                                                  1}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...tikzcd}\BODY\end{tikzcd}\end{center}}}{#1
+                                                  }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.7 \include{preamble}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.7 \include{preamble}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
 \openout1 = `testsHere.aux'.
 
@@ -778,13 +818,13 @@ LaTeX Font Info:    ... okay on input line 16.
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count136
-\scratchdimen=\dimen184
+\scratchdimen=\dimen183
 \scratchbox=\box48
 \nofMPsegments=\count137
 \nofMParguments=\count138
 \everyMPshowfont=\toks41
 \MPscratchCnt=\count139
-\MPscratchDim=\dimen185
+\MPscratchDim=\dimen184
 \MPnumerator=\count140
 \makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks42
@@ -838,115 +878,932 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `testsHere.toc'.
 
- [1
+ [2
 
-
-
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+]
 (./chapter_1/finding_counter_examples.tex
-Underfull \hbox (badness 3354) in paragraph at lines 37--42
-\T1/qtm/b/n/12 C is shorter than go-ingth-rough D,  road
- []
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.25 \end{solgr}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.25 \end{solgr}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (90.842pt too wide) in paragraph at lines 37--42
-[] 
- []
+! Package pgf Error: Single ampersand used with wrong catcode.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{solgr}
+                
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.25 \end{solgr}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pgf@matrix@last@nextcell@options 
+                                             
+l.25 \end{solgr}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (32.22481pt too wide) in paragraph at lines 47--48
- [] 
- []
+! Package pgf Error: Single ampersand used with wrong catcode.
 
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{solgr}
+                
+(That was another \errmessage.)
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--52
+! Misplaced \cr.
+\pgf@matrix@no@eom@found ->\cr 
+                               \noalign {\vskip \pgf@y \ifpgf@matrix@fixed \...
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
- []
+! Misplaced \noalign.
+\pgf@matrix@no@eom@found ->\cr \noalign 
+                                        {\vskip \pgf@y \ifpgf@matrix@fixed \...
+l.25 \end{solgr}
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.25 \end{solgr}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \vbox (36.11263pt too high) has occurred while \output is active []
+! Missing } inserted.
+<inserted text> 
+                }
+l.25 \end{solgr}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-[2]) (./chapter_1/proofs_of_correctness.tex
-Overfull \hbox (79.24887pt too wide) detected at line 59
-\U/msa/m/n/12 )  []
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-Overfull \hbox (4.3222pt too wide) detected at line 69
-[]
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-Overfull \hbox (0.2647pt too wide) in paragraph at lines 34--72
-[]$[]$ 
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-[3] [4]
-Overfull \hbox (212.29337pt too wide) in paragraph at lines 81--90
-[] [] 
- []
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-Overfull \hbox (53.31949pt too wide) in paragraph at lines 81--90
-[] $\OML/cmm/m/it/12 A[]$ []
- []
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-[5]
-Overfull \hbox (51.33434pt too wide) in paragraph at lines 150--155
-[] 
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
-[]
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-Overfull \hbox (5.77037pt too wide) in paragraph at lines 162--166
-[] 
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-) (./chapter_1/induction.tex [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
- []
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-)
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
 
-Package caption Warning: Unused \captionsetup[figure] on input line 61.
-See the caption package documentation for explanation.
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.25 \end{solgr}
+                
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.25 \end{solgr}
+                
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 18293 strings out of 492616
- 350622 string characters out of 6132768
- 593669 words of memory out of 5000000
- 21816 multiletter control sequences out of 15000+600000
- 64725 words of font info for 78 fonts, out of 8000000 for 9000
+ 18170 strings out of 492616
+ 347014 string characters out of 6132768
+ 584382 words of memory out of 5000000
+ 21694 multiletter control sequences out of 15000+600000
+ 46806 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,16n,86p,536b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/
-texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/te
-x-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (8 pages, 210459 bytes).
-PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65i,14n,86p,498b,1023s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!
