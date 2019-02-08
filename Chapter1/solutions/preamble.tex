@@ -134,18 +134,25 @@
   }
 }
 
-\NewEnviron{solgr}[1]{{\color{answer}{}\begin{center}\begin{tikzcd}\BODY\end{tikzcd}\end{center}}}{#1}
+\NewEnviron{solcen}[2]{%
+  {\color{answer}{} 
+    \begin{center}
+      \begin{tikzcd}[ampersand replacement=\&]
+        #1
+        \end{tikzcd}
+    \end{center}
+    #2
+  }
+}
+
+
+
 
 % \NewEnviron{name}{macro code}[final code]
 
 
 % {\color{answer}{}
-% \begin{center}
-%   \begin{tikzcd}
-%     A \arrow[rrd, "{D=6m, \;S=3m/s}"'] \arrow[rr, "{D=5m, \;S=1m/s}"] &  & C \arrow[rr, "{D=5m, \;S=.2m/s}"] &  & B \\
-%      &  & D \arrow[rru, "{D=6m, \;S=3m/s}"'] &  & 
-%   \end{tikzcd}
-% \end{center}
+
 
 % Although the distance from A to B through C is shorter than going through D, road constraints limit the time it takes making the route through D faster despite it.
 % }
