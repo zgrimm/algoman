@@ -159,17 +159,17 @@ $$\text{swap the values of } A[j] \;and\; A[j + 1] $$
 	&\text{so } A = [a,b] \text{ and from our assumption that a < b for case 2 the algorithm is true.} 
 \end{soleqo}
 
-\textbf{case 3: \emph{a = b}}\\
+\textbf{case 3: \emph{a = b}}
 The list is considered sorted regardless of how the algorithm may rearange its items. Now we procede with induction, assuming that for all lists of size $\leq n$ the algorithm returns a sorted list We must show that for a list of size $n+1$, the algorithm returns an ordered list that is function bubblesort $(A : list[1 ...n, n+1])$
 \begin{soleqo}
-	&\text{var int} i, j \\
+	&\text{var } int \; i, j \\
 	&\text{for } i \;from\; n+1 \;to\; 1 \\
 	&\text{for } j \;from\; 1 \;to\; i - 1 \\
 	&\text{if } (A[j] > A[j + 1]) \\
 	&\text{swap the values of } A[j] \;and\; A[j + 1] 
 \end{soleqo}
-
-The inner loop "bubbles up" the largest num to position i on the last j iteration of the first i iteration the altered set has $n+1$ elems with the largest element in position n+1 now we have sort the rest of the list which is of size n. Our inductive hypothesis states we can do this. $\;\; \blacksquare$
+{\color{answer}{}
+The inner loop "bubbles up" the largest num to position i on the last j iteration of the first i iteration the altered set has $n+1$ elems with the largest element in position n+1 now we have sort the rest of the list which is of size n. Our inductive hypothesis states we can do this. $\;\; \blacksquare$}
 
 
 
