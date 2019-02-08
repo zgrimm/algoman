@@ -1,10 +1,11 @@
 \subsection{Proofs of Correctness}
 
 \subsubsection*{\textbf{1-7.} \emph{Prove the correctness of the following recursive algorithm to multiply two
-natural numbers, for all integer constants $c\geq 2$}}
-$$\text{function } M(y,z)$$ 
-$$\text{1. If  } z = 0 \text{ then return(0) else }$$ 
-$$\text{2. return } M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$$
+natural numbers, for all integer constants $c\geq 2$: 
+$$\text{function }  M(y,z)$$ 
+$$\text{1. If }   z = 0 \text{ then } return(0) \text{ else}$$  
+$$\text{2. return }  M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c))$$
+}}
 
 \textbf{case 1: \emph{c = z}}
 \begin{soleqo}
@@ -15,7 +16,7 @@ M(y,z) =& \;M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
 			  =& \;M(czy, \lfloor(1/c)\rfloor) + zy(1 \;mod\; c) \\ 
 			  =& \;M(zzy, \lfloor(1/z)\rfloor) + zy(1 \;mod\; z) \\ 
 			  =& \;M(zzy, 0) + zy(1 \;mod\; z) \\ 
-			  =& \;yz \\
+			  =& \;yz 
 \end{soleqo}
 %
 \textbf{case 2: \emph{c > z}}
@@ -23,7 +24,7 @@ M(y,z) =& \;M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
 M(y,z) =& \;M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
 			  =& \;M(cy, 0) + y(z \;mod\; c) \\
 			  =& \;M(cy, 0) + y(z \;mod\; c) \\
-			  =& \;yz \\
+			  =& \;yz 
 \end{soleqo}
 %
 \textbf{case 3: \emph{c < z}}
@@ -32,7 +33,7 @@ M(y,z) =& \;M(cy, \lfloor(z/c)\rfloor) + y(z \;mod\; c) \\
 \begin{soleqo}
 	&c \ge 2 \\
 	&z \leq n \text{ (inductive hypothesis) }\\
-	&y \geq 0 \\
+	&y \geq 0 
 \end{soleqo}
 
 \textbf{Base Case: }
@@ -59,29 +60,34 @@ Assuming the algorithm holds for all numbers $\leq n$  , we must show that \\
 \begin{soleqo}
 	M(y, n + 1) = y(n+1)
 \end{soleqo}
+
 Now,   \\
 \begin{soleqo}
-	M(y, n + 1) = M(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) \\
+	M(y, n + 1) = M(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c) 
 \end{soleqo}
+
 since \\ 
 \begin{soleqo}
 	c \geq& 2, \\
-	\lfloor((n+1)/c)\rfloor <& n + 1 \\
+	\lfloor((n+1)/c)\rfloor <& n + 1 
 \end{soleqo}
+
 $\therefore$ the first term returns a valid result (based on our inductive hypothesis) so following the algorithm: \\
 \begin{soleqo}
 	  M(y, n + 1) =& \;  M(cy, \lfloor((n+1)/c))\rfloor + y((n+1) \;mod\; c)
 \end{soleqo}
+
 for simplicity let  $z^{'} = n+1$ \\
 \begin{soleqo}
 	  =& \;  cy\lfloor((z^{'})/c)\rfloor + y((z^{'}) \;mod\; c)   \\
      =& \; y(c\lfloor(z^{'}/c)\rfloor + (z^{'} \;mod\; c))  
 \end{soleqo}
+
 and from (1*) \\
 \begin{soleqo}
-	 =& \;  yz^{'} \\
+	 =& \;  yz^{'} \;\;\blacksquare
 \end{soleqo}
-$\blacksquare$
+
 
 
 
@@ -94,14 +100,15 @@ $$p = px + A_{i}$$
 $$\text{return } p$$ 
 
 \subsubsection*{\emph{For polynomials of degree 0, $P(x) = A_{0}$, which the algoritm satisfies. Assuming the algorithm holds for polyomials of degree  $\leq n$ and that A is an ordered set of coefficients of size  $n, \; [A_{n}, A_{n-1}, ... + A_{0}] $. \\}}
-
+%
 \begin{soleqo}
-	 horner(A,x) = P(x) = a_{n}^{x^n} + a_{n-1}x^{n-1} + ... + a_{1}x + a_{0} \\
+	 horner(A,x) = P(x) = a_{n}^{x^n} + a_{n-1}x^{n-1} + ... + a_{1}x + a_{0} 
 \end{soleqo}
-we must show it holds for polynomials of degree $n+1$, ie: $A^{'}$ is an ordered set of coefficients of size $n + 1$, \; ( $[A_{n+1}, A_{n}, ... A_{0}]$ )\\
 
-\textbf{horner(} $A^{'}, x$ ) : \\
+we must show it holds for polynomials of degree $n+1$, ie: $A^{'}$ is an ordered set of coefficients of size $n + 1$, \; ( $[A_{n+1}, A_{n}, ... A_{0}]$ )\\
+%
 \begin{soleqo}
+&horner(A^{'}, x) :\\
 &p \Rightarrow \\
 &A^{'}_{n+1} \\
 &A^{'}_{n+1}*x + A^{'}_{n} \\
@@ -111,71 +118,59 @@ we must show it holds for polynomials of degree $n+1$, ie: $A^{'}$ is an ordered
 &. \\
 &A^{'}_{n+1}*x^{n+1} + A^{'}_{n}*x^{n} + ... + A^{'}_{1}*x + A^{'}_{0} \\
 &= \\
-&A^{'}_{n+1}*x^{n+1} + horner(A, x) \\
+&A^{'}_{n+1}*x^{n+1} + horner(A, x) \;\;\blacksquare
 \end{soleqo}
-$\blacksquare$
-\emph{??? seems circular... define what we need to show better}
+
+
 
  	
  		
 
 
-\textbf{1-9.} \emph{Prove the correctness of the following sorting algorithm:} 
-$$\text{\textbf{function bubblesort } (A : list[1 ...n])} $$ 
+\subsubsection*{\textbf{1-9.} \emph{Prove the correctness of the following sorting algorithm:}}
+$$\text{\emph{function} } bubblesort(A : list[1 ...n]) $$ 
 $$\text{var  int } i,\; j$$
 $$\text{for } i \;from\; n \;to\; 1 $$
 $$\text{for } j \;from\; 1  \;to\; i - 1 $$
 $$\text{if } A[j] > A[j + 1] $$
 $$\text{swap the values of } A[j] \;and\; A[j + 1] $$
 
-\text{\textbf{Base case} is a list of two elements $[a,b]$ (we are indexing from 1 not 0 as usual)} 
+\textbf{Base Case} is a list of two elements $[a,b]$ (we are indexing from 1 not 0 as usual)
+\begin{soleqo}
+	&i = 2 \\
+	&j = 1 \\
+	&\text{if }  (A[1] > A[2]) = \;true \\
+	&\text{swap values, so } A = [b,a] \\
+	&i = 1 \\
+	&j = 1 \\
+	&\text{if } (A[1] > A[2]) = \;false \\
+	&\text{so } A = [b,a] \text{ and from our assumption that a > b for case 1 the algorithm is true.} 
+\end{soleqo}
 
-\begin{minipage}{0.95\textwidth}
-\textbf{case 1: \emph{a > b}}
-\begin{center}
-	$i = 2$ \\
-	$j = 1$ \\
-	if  $(A[1] > A[2]) = \;true$ \\
-	swap values, so $A = [b,a]$ \\
-	$i = 1$ \\
-	$j = 1$ \\
-	if $(A[1] > A[2]) = \;false$ \\
-	so $A = [b,a]$ and from our assumption that $a > b$ for case 1 the algorithm is true. \\
-\end{center}
-\end{minipage}
-
-\begin{minipage}{0.95\textwidth}
 \textbf{case 2: \emph{a < b}}
-\begin{center}
-	$i = 2$ \\
-	$j = 1$ \\
-	if  $(A[1] > A[2]) = \;false$ \\
-	swap values, so $A = [b,a]$ \\
-	$i = 1$ \\
-	$j = 1$ \\
-	if $(A[1] > A[2]) = \;false$ \\
-	so $A = [a,b]$ and from our assumption that $a < b$ for case 2 the algorithm is true. \\
-\end{center}
-\end{minipage}
+\begin{soleqo}
+	&i = 2 \\
+	&j = 1 \\
+	&\text{if }   (A[1] > A[2]) = \;false \\
+	&\text{swap values, so } A = [b,a] \\
+	&i = 1 \\
+	&j = 1 \\
+	&\text{if } (A[1] > A[2]) = \;false \\
+	&\text{so } A = [a,b] \text{ and from our assumption that a < b for case 2 the algorithm is true.} 
+\end{soleqo}
 
-\begin{minipage}{0.95\textwidth}
-\textbf{case 3: \emph{a = b}} \\
-\text{The list is considered sorted regardless of how the algorithm may rearange its items} \\
-\text{Now we procede with induction, assuming that for all lists of size $\leq n$ the algorithm}  \\
-\text{returns a sorted list We must show that for a list of size n+1, the algorithm returns an ordered list} \\
-\text{that is function bubblesort $(A : list[1 ...n, n+1])$}
-\begin{center}
-	\text{var int} $i, j$ \\
-	\text{for } $i \;from\; n+1 \;to\; 1$ \\
-	\text{for } $j \;from\; 1 \;to\; i - 1$ \\
-	\text{if } $(A[j] > A[j + 1])$ \\
-	\text{swap the values of } $A[j] \;and\; A[j + 1]$ \\
-\end{center}
-\text{The inner loop "bubbles up" the largest num to position i}
-\text{on the last j iteration of the first i iteration the altered set has n+1 elems with the largest}  \\
-\text{element in position n+1 now we have sort the rest of the list which is of size n.} \\
-\text{Our inductive hypothesis states we can do this. $\;\; \blacksquare$}
-\end{minipage}
+\textbf{case 3: \emph{a = b}
+The list is considered sorted regardless of how the algorithm may rearange its items. Now we procede with induction, assuming that for all lists of size $\leq n$ the algorithm returns a sorted list We must show that for a list of size $n+1$, the algorithm returns an ordered list} that is function bubblesort $(A : list[1 ...n, n+1])$
+\begin{soleqo}
+	&\text{var int} i, j \\
+	&\text{for } i \;from\; n+1 \;to\; 1 \\
+	&\text{for } j \;from\; 1 \;to\; i - 1 \\
+	&\text{if } (A[j] > A[j + 1]) \\
+	&\text{swap the values of } A[j] \;and\; A[j + 1] 
+\end{soleqo}
+
+The inner loop "bubbles up" the largest num to position i on the last j iteration of the first i iteration the altered set has $n+1$ elems with the largest element in position n+1 now we have sort the rest of the list which is of size n. Our inductive hypothesis states we can do this. $\;\; \blacksquare$
+
 
 
 

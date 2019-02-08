@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  8 FEB 2019 02:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  8 FEB 2019 05:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,7 +837,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./chapter_1/finding_counter_examples.tex [2]
-Overfull \hbox (25.20537pt too wide) in paragraph at lines 70--70
+Overfull \hbox (25.20537pt too wide) in paragraph at lines 66--66
 \T1/qtm/m/it/12 For ex-am-ple, there are the fol-low-ing sub-sets, $\OML/cmm/m/
 it/12 S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OMS/cmsy/m/n/12 g\OML/
@@ -847,17 +847,7 @@ cmm/m/it/12 ; S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 2\OML/cmm
 \OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ;  and S[] \OT1/cmr/m/n/12 =
  []
 
-[3]) (./chapter_1/proofs_of_correctness.tex [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-
- []
-
-[6] [7]
-Overfull \hbox (164.87236pt too wide) in paragraph at lines 174--178
-[] [] 
- []
-
-)
+[3]) (./chapter_1/proofs_of_correctness.tex [4] [5] [6] [7])
 
 Package caption Warning: Unused \captionsetup[figure] on input line 61.
 See the caption package documentation for explanation.
@@ -865,12 +855,12 @@ See the caption package documentation for explanation.
 [8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
  18347 strings out of 492616
- 351426 string characters out of 6132768
+ 351428 string characters out of 6132768
  592381 words of memory out of 5000000
  21865 multiletter control sequences out of 15000+600000
- 69480 words of font info for 77 fonts, out of 8000000 for 9000
+ 69416 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,584b,1029s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,86p,602b,1029s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/
 texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fo
@@ -892,7 +882,7 @@ ist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/typ
 e1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-
 gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (8 pages, 256972 bytes).
+re.pdf (8 pages, 259914 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
