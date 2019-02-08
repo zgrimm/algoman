@@ -159,8 +159,8 @@ $$\text{swap the values of } A[j] \;and\; A[j + 1] $$
 	&\text{so } A = [a,b] \text{ and from our assumption that a < b for case 2 the algorithm is true.} 
 \end{soleqo}
 
-\textbf{case 3: \emph{a = b}
-The list is considered sorted regardless of how the algorithm may rearange its items. Now we procede with induction, assuming that for all lists of size $\leq n$ the algorithm returns a sorted list We must show that for a list of size $n+1$, the algorithm returns an ordered list} that is function bubblesort $(A : list[1 ...n, n+1])$
+\textbf{case 3: \emph{a = b}}\\
+The list is considered sorted regardless of how the algorithm may rearange its items. Now we procede with induction, assuming that for all lists of size $\leq n$ the algorithm returns a sorted list We must show that for a list of size $n+1$, the algorithm returns an ordered list that is function bubblesort $(A : list[1 ...n, n+1])$
 \begin{soleqo}
 	&\text{var int} i, j \\
 	&\text{for } i \;from\; n+1 \;to\; 1 \\
