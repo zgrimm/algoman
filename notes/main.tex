@@ -1,0 +1,49 @@
+%% 
+%% Latex Practice
+%% Use https://tikzcd.yichuanshen.de/ for diagrams
+%leqno,fleqn,
+\documentclass[10pt,letterpaper]{article}
+
+\include{preamble}
+
+\title{Algorithm Design Manual Notes}
+\author{Zachary William Grimm\\
+  \small{Notes  for ADM by Skiena}\\
+  \small{zwgrimm@gmail.com}
+}
+\date{\today{}}
+
+\begin{document}
+
+\setstretch{1.00}
+\maketitle
+
+% -- Table of Contents --
+\tableofcontents{}
+
+\newpage{}
+
+% -- set document spacing --
+% \setstretch{1.09}  % single line
+% \setstretch{1.30}  % single wide-spaced\subsubsection*{\textbf{1-12.} \emph{Prove that $\sum_{i=1}^{n}i^{3}=\frac{n^{2}(n+1)^{2}}{4} \;for\; n \geq 0$, by induction}}
+% \setstretch{1.50}  % one and a half spacing
+
+% -- Import content here
+\section{Introduction To Algorithm Design}
+\input{chapter_1/_1.0_introduction_to_algorithm_design}
+\input{chapter_1/_1.1_robot_tour_optimization}
+\input{chapter_1/_1.2_selecting_the_right_jobs}
+\input{chapter_1/_1.3_reasoning_about_correctness}
+
+
+
+
+
+
+
+
+
+% -- Bibliography (APA)
+% \bibliography{references}
+
+\end{document}
