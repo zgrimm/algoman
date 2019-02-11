@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  11 FEB 2019 07:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  11 FEB 2019 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,7 +889,7 @@ See the caption package documentation for explanation.
 Here is how much of TeX's memory you used:
  18398 strings out of 492616
  352156 string characters out of 6132768
- 601381 words of memory out of 5000000
+ 594382 words of memory out of 5000000
  21899 multiletter control sequences out of 15000+600000
  63659 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -919,7 +919,7 @@ exmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fon
 ts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
 c/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (14 pages, 298716 bytes).
+re.pdf (14 pages, 298919 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
