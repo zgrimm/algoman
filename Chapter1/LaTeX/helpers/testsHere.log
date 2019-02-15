@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  14 FEB 2019 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  14 FEB 2019 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,14 +1032,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--51
 
  []
 
-[12] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
+(./chapter_3/_3.1_contiguous_vs_linked_data_structures.tex) [12]
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18296 strings out of 492616
- 349946 string characters out of 6132768
+ 18302 strings out of 492616
+ 350150 string characters out of 6132768
  586382 words of memory out of 5000000
  21734 multiletter control sequences out of 15000+600000
  50612 words of font info for 73 fonts, out of 8000000 for 9000
@@ -1063,7 +1064,7 @@ ts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
 c/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtm
 ri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (12 pages, 305459 bytes).
+re.pdf (12 pages, 305526 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
