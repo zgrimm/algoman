@@ -21,21 +21,21 @@
 \contentsline {subsection}{\numberline {2.4}Working with the Big Oh}{8}% 
 \contentsline {subsubsection}{\numberline {2.4.1}Adding Functions}{8}% 
 \contentsline {subsubsection}{\numberline {2.4.2}Multiplying Functions}{8}% 
-\contentsline {subsection}{\numberline {2.5}Reasoning About Efficiency}{8}% 
-\contentsline {subsubsection}{\numberline {2.5.1}Selection Sort}{8}% 
-\contentsline {subsubsection}{\numberline {2.5.2}Insertion Sort}{8}% 
-\contentsline {subsubsection}{\numberline {2.5.3}String Pattern Matching}{8}% 
-\contentsline {subsubsection}{\numberline {2.5.4}Matrix Multiplication}{8}% 
-\contentsline {subsection}{\numberline {2.6}Logarithms and Their Applications}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.1}Logarithms and Binary Search}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.2}Logarithms Trees}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.3}Logarithms and Bits}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.4}Logarithms and Multiplication}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.5}Fast Exponentiation}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.6}Logarithms and Summations}{8}% 
-\contentsline {subsubsection}{\numberline {2.6.7}Logarithms and Criminal Justice}{8}% 
-\contentsline {subsection}{\numberline {2.7}Properties of Logarithms}{8}% 
-\contentsline {subsection}{\numberline {2.8}War Story: Mystery of the Pyramids}{8}% 
-\contentsline {subsection}{\numberline {2.9}Advanced Aanalysis (*)}{8}% 
-\contentsline {subsection}{\numberline {2.10}Esoteric Functions}{8}% 
-\contentsline {subsection}{\numberline {2.11}Limits and Dominance Relations}{8}% 
+\contentsline {subsection}{\numberline {2.5}Reasoning About Efficiency}{9}% 
+\contentsline {subsubsection}{\numberline {2.5.1}Selection Sort}{9}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Insertion Sort}{9}% 
+\contentsline {subsubsection}{\numberline {2.5.3}String Pattern Matching}{9}% 
+\contentsline {subsubsection}{\numberline {2.5.4}Matrix Multiplication}{11}% 
+\contentsline {subsection}{\numberline {2.6}Logarithms and Their Applications}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Logarithms and Binary Search}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.2}Logarithms Trees}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.3}Logarithms and Bits}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.4}Logarithms and Multiplication}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.5}Fast Exponentiation}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.6}Logarithms and Summations}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.7}Logarithms and Criminal Justice}{11}% 
+\contentsline {subsection}{\numberline {2.7}Properties of Logarithms}{11}% 
+\contentsline {subsection}{\numberline {2.8}War Story: Mystery of the Pyramids}{11}% 
+\contentsline {subsection}{\numberline {2.9}Advanced Aanalysis (*)}{11}% 
+\contentsline {subsection}{\numberline {2.10}Esoteric Functions}{11}% 
+\contentsline {subsection}{\numberline {2.11}Limits and Dominance Relations}{11}% 

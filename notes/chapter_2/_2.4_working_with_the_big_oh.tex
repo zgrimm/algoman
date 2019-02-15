@@ -2,4 +2,32 @@
 
 \subsubsection{Adding Functions}
 
+$$O(f(n)) + O(g(n)) \longrightarrow O(max(f(n),g(n))$$
+
+$$\Omega(f(n)) + \Omega(g(n)) \longrightarrow \Omega(max(f(n),g(n))$$
+
+
+$$\Theta(f(n)) + \Theta(g(n)) \longrightarrow \Theta(max(f(n),g(n))$$
+
 \subsubsection{Multiplying Functions}
+
+$$O(c*f(n))) \longrightarrow O(f(n))$$
+
+$$\Omega(c*f(n))) \longrightarrow \Omega(f(n))$$
+
+
+$$\Theta(c*f(n))) \longrightarrow \Theta(f(n))$$
+
+\noindent\rule{\textwidth}{0.4pt}
+
+$$O(f(n)) * O(g(n)) \longrightarrow O(f(n) * g(n))$$
+
+$$\Omega(f(n)) * \Omega(g(n)) \longrightarrow \Omega(f(n) * g(n))$$
+
+$$\Theta(f(n)) * \Theta(g(n)) \longrightarrow \Theta(f(n) * g(n))$$
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\textbf{Stop and Think: Hip to the SquaresTransitive Experience} \\
+
+\emph{Show that Big Oh relationships are transitive. That is, if $f(n) = O(g(n))$ and $g(n) = O(h(n))$, then $f(n) = O(h(n))$}

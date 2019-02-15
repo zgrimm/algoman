@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  14 FEB 2019 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  14 FEB 2019 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,6 +749,9 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 
 LaTeX Warning: Label `fig:demo-diagram' multiply defined.
 
+
+LaTeX Warning: Label `fig:demo-diagram' multiply defined.
+
 )
 \openout1 = `testsHere.aux'.
 
@@ -963,28 +966,44 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 13--19
 [] 
  []
 
-) (./chapter_2/_2.4_working_with_the_big_oh.tex)
-(./chapter_2/_2.5_reasoning_about_efficiency.tex)
-(./chapter_2/_2.6_logarithms_and_their_applications.tex)
+) (./chapter_2/_2.4_working_with_the_big_oh.tex [7 <./2_3.PNG> <./2_4.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+) (./chapter_2/_2.5_reasoning_about_efficiency.tex
+<./2_5.png, id=54, 167.12437pt x 157.33781pt>
+File: ./2_5.png Graphic file (type png)
+<use ./2_5.png>
+Package pdftex.def Info: ./2_5.png  used on input line 7.
+(pdftex.def)             Requested size: 150.41052pt x 141.6027pt.
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+<./2_6.png, id=58, 144.54pt x 79.79813pt>
+File: ./2_6.png Graphic file (type png)
+<use ./2_6.png>
+Package pdftex.def Info: ./2_6.png  used on input line 48.
+(pdftex.def)             Requested size: 86.72466pt x 47.87923pt.
+[9 <./2_5.PNG>]) (./chapter_2/_2.6_logarithms_and_their_applications.tex)
 (./chapter_2/_2.7_properties_of_logarithms.tex)
 (./chapter_2/_2.8_war_story_mystery_of_the_pyramids.tex)
-(./chapter_2/_2.9_advanced_analysis.tex) [7 <./2_3.PNG> <./2_4.PNG>]
-Overfull \vbox (36.18901pt too high) has occurred while \output is active []
-
-
-[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
+(./chapter_2/_2.9_advanced_analysis.tex) [10 <./2_6.PNG>] [11]
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18273 strings out of 492616
- 349644 string characters out of 6132768
+ 18285 strings out of 492616
+ 349801 string characters out of 6132768
  585382 words of memory out of 5000000
- 21715 multiletter control sequences out of 15000+600000
- 47760 words of font info for 72 fonts, out of 8000000 for 9000
+ 21725 multiletter control sequences out of 15000+600000
+ 50612 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,8n,86p,498b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,8n,86p,498b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/20
 18/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc
 /dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
@@ -999,10 +1018,10 @@ r8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/te
 xlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/tex
 mf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (8 pages, 233402 bytes).
+re.pdf (11 pages, 246500 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
