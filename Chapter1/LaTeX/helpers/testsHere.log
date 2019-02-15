@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  11 FEB 2019 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  14 FEB 2019 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,7 +745,11 @@ Package caption Info: listings package is loaded.
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ))
-(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux
+
+LaTeX Warning: Label `fig:demo-diagram' multiply defined.
+
+)
 \openout1 = `testsHere.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -762,8 +766,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -827,102 +830,179 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.toc)
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.toc [1
+
+
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `testsHere.toc'.
 
- [1
+ [2]
+(./chapter_1/_1.0_introduction_to_algorithm_design.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--5
 
-
-
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./chapter_1/finding_counter_examples.tex [2]
-Overfull \hbox (25.20537pt too wide) in paragraph at lines 64--64
-\T1/qtm/m/it/12 For ex-am-ple, there are the fol-low-ing sub-sets, $\OML/cmm/m/
-it/12 S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12
- ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OMS/cmsy/m/n/12 g\OML/
-cmm/m/it/12 ; S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 2\OML/cmm
-/m/it/12 ; \OT1/cmr/m/n/12 4\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ; S[] \OT1/cmr/m
-/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4
-\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ;  and S[] \OT1/cmr/m/n/12 =
  []
 
-[3]) (./chapter_1/proofs_of_correctness.tex
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 12.
-
+<./insertion_sort.png, id=14, 166.37157pt x 185.19188pt>
+File: ./insertion_sort.png Graphic file (type png)
+<use ./insertion_sort.png>
+Package pdftex.def Info: ./insertion_sort.png  used on input line 11.
+(pdftex.def)             Requested size: 99.82368pt x 111.11597pt.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 17.
 (c:/texlive/2018/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <12> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 12.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 12.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <8> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 7.19995pt on input line 12.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <6> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 5.39996pt on input line 12.
- [4] [5] [6] [7]
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 187.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 187.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 187.
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 187.
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 187.
+(Font)              scaled to size 8.99994pt on input line 17.
+<./nearest_neighbor.png, id=16, 629.35126pt x 210.03468pt>
+File: ./nearest_neighbor.png Graphic file (type png)
+<use ./nearest_neighbor.png>
+Package pdftex.def Info: ./nearest_neighbor.png  used on input line 37.
+(pdftex.def)             Requested size: 377.61366pt x 126.02177pt.
 )
-(./chapter_1/induction.tex [8] [9] [10]) (./chapter_2/program_analysis.tex
-[11] [12] [13] [14] [15])
+(./chapter_1/_1.1_robot_tour_optimization.tex)
+(./chapter_1/_1.2_selecting_the_right_jobs.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
-Package caption Warning: Unused \captionsetup[figure] on input line 61.
-See the caption package documentation for explanation.
+ []
 
-[16] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
+[3 <./insertion_sort.png> <./nearest_neighbor.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+) (./chapter_1/_1.3_reasoning_about_correctness.tex
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 8--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--1
+
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 5--9
+[] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 12--16
+[] 
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+qtm on input line 22.
+(c:/texlive/2018/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+)
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 35--39
+[] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 42--46
+[] 
+ []
+
+[4]) (./chapter_1/_1.4_modeling_the_problem.tex
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 23--27
+[] 
+ []
+
+) (./chapter_1/_1.5_about_the_war_stories.tex)
+(./chapter_2/_2.0_algorithm_analysis.tex [5])
+(./chapter_2/_2.1_the_ram_model_of_computation.tex
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 3--7
+[] 
+ []
+
+<./2_1.png, id=37, 252.19218pt x 170.13562pt>
+File: ./2_1.png Graphic file (type png)
+<use ./2_1.png>
+Package pdftex.def Info: ./2_1.png  used on input line 12.
+(pdftex.def)             Requested size: 151.31647pt x 102.08215pt.
+) (./chapter_2/_2.2_the_big_oh_notation.tex
+<./2_2.png, id=38, 234.8775pt x 152.82094pt>
+File: ./2_2.png Graphic file (type png)
+<use ./2_2.png>
+Package pdftex.def Info: ./2_2.png  used on input line 5.
+(pdftex.def)             Requested size: 140.92758pt x 91.69325pt.
+<./2_3.png, id=39, 429.10312pt x 146.79843pt>
+File: ./2_3.png Graphic file (type png)
+<use ./2_3.png>
+Package pdftex.def Info: ./2_3.png  used on input line 13.
+(pdftex.def)             Requested size: 257.46385pt x 88.07973pt.
+ [6 <./2_1.PNG> <./2_2.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+) (./chapter_2/_2.3_growth_rates_and_dominance_relations.tex
+Underfull \hbox (badness 10000) in paragraph at lines 28--1
+
+ []
+
+<./2_4.png, id=45, 447.92343pt x 140.02313pt>
+File: ./2_4.png Graphic file (type png)
+<use ./2_4.png>
+Package pdftex.def Info: ./2_4.png  used on input line 5.
+(pdftex.def)             Requested size: 447.92233pt x 140.02278pt.
+
+Overfull \hbox (14.30234pt too wide) in paragraph at lines 5--7
+ [][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 13--19
+[] 
+ []
+
+) (./chapter_2/_2.4_working_with_the_big_oh.tex)
+(./chapter_2/_2.5_reasoning_about_efficiency.tex)
+(./chapter_2/_2.6_logarithms_and_their_applications.tex)
+(./chapter_2/_2.7_properties_of_logarithms.tex)
+(./chapter_2/_2.8_war_story_mystery_of_the_pyramids.tex)
+(./chapter_2/_2.9_advanced_analysis.tex) [7 <./2_3.PNG> <./2_4.PNG>]
+Overfull \vbox (36.18901pt too high) has occurred while \output is active []
+
+
+[8] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18400 strings out of 492616
- 352182 string characters out of 6132768
- 595382 words of memory out of 5000000
- 21901 multiletter control sequences out of 15000+600000
- 69289 words of font info for 92 fonts, out of 8000000 for 9000
+ 18273 strings out of 492616
+ 349644 string characters out of 6132768
+ 585382 words of memory out of 5000000
+ 21715 multiletter control sequences out of 15000+600000
+ 47760 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,14n,86p,602b,1029s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:
-/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dis
-t/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
-ic/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvmro8a.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/tex-gyre/qtmri.pfb>
+ 65i,8n,86p,498b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/20
+18/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc
+/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvm
+r8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (16 pages, 303439 bytes).
+re.pdf (8 pages, 233402 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 100 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
