@@ -25,17 +25,17 @@
 \contentsline {subsubsection}{\numberline {2.5.1}Selection Sort}{9}% 
 \contentsline {subsubsection}{\numberline {2.5.2}Insertion Sort}{9}% 
 \contentsline {subsubsection}{\numberline {2.5.3}String Pattern Matching}{9}% 
-\contentsline {subsubsection}{\numberline {2.5.4}Matrix Multiplication}{11}% 
-\contentsline {subsection}{\numberline {2.6}Logarithms and Their Applications}{11}% 
-\contentsline {subsubsection}{\numberline {2.6.1}Logarithms and Binary Search}{11}% 
+\contentsline {subsubsection}{\numberline {2.5.4}Matrix Multiplication}{10}% 
+\contentsline {subsection}{\numberline {2.6}Logarithms and Their Applications}{10}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Logarithms and Binary Search}{10}% 
 \contentsline {subsubsection}{\numberline {2.6.2}Logarithms Trees}{11}% 
 \contentsline {subsubsection}{\numberline {2.6.3}Logarithms and Bits}{11}% 
 \contentsline {subsubsection}{\numberline {2.6.4}Logarithms and Multiplication}{11}% 
 \contentsline {subsubsection}{\numberline {2.6.5}Fast Exponentiation}{11}% 
 \contentsline {subsubsection}{\numberline {2.6.6}Logarithms and Summations}{11}% 
 \contentsline {subsubsection}{\numberline {2.6.7}Logarithms and Criminal Justice}{11}% 
-\contentsline {subsection}{\numberline {2.7}Properties of Logarithms}{11}% 
-\contentsline {subsection}{\numberline {2.8}War Story: Mystery of the Pyramids}{11}% 
-\contentsline {subsection}{\numberline {2.9}Advanced Aanalysis (*)}{11}% 
-\contentsline {subsection}{\numberline {2.10}Esoteric Functions}{11}% 
-\contentsline {subsection}{\numberline {2.11}Limits and Dominance Relations}{11}% 
+\contentsline {subsection}{\numberline {2.7}Properties of Logarithms}{12}% 
+\contentsline {subsection}{\numberline {2.8}War Story: Mystery of the Pyramids}{12}% 
+\contentsline {subsection}{\numberline {2.9}Advanced Aanalysis (*)}{12}% 
+\contentsline {subsection}{\numberline {2.10}Esoteric Functions}{12}% 
+\contentsline {subsection}{\numberline {2.11}Limits and Dominance Relations}{12}% 
