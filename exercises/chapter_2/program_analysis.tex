@@ -116,7 +116,10 @@ $$p(x) = a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}$$
 \end{align*}
 \begin{enumerate}[label=(\alph*)]\itemsep1pt\parskip0pt\parsep0pt
 	\item{
-	\emph{How many multiplications are done in the worst-case? How many additions?}
+	\emph{How many multiplications are done in the worst-case? How many additions?} \\
+    \textcolor{answer}{
+      $2n$ multiplications, $n$ additions.
+    }
 	}
 	\item{
 	\emph{How many muliplications are done on the average?}
@@ -126,13 +129,4 @@ $$p(x) = a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}$$
 	}
 \end{enumerate}
 }}
-% \begin{verbatim}
-%                     p:= a_{0};
-%                         xpower:= 1;
-%                         for i:=1 to n do 
-%                           xpower:= x*xpower;
-%                           p:= p+a_{i}*xpower 
-%                             for k:=i+j-1 to n do
-%                               r := r + 1 
-%                         return(r)
-% \end{verbatim}
+

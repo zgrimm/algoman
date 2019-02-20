@@ -3,6 +3,29 @@
 \subsubsection*{\textbf{3-1.} \emph{A common problem for compilers and text editors is determining whether the parentheses in a string are balanced and properly nested. For example, the string ((())())() contains properly nested pairs of parentheses, which the strins )()( and ()) do not. Give an algorithm that returns true if a string contains properly nested and balanced parentheses, and false otherwise. For Full credit, identify the position of the first offending parenthesis if the string is not properly nested and balanced.
 }}
 
+\begin{soleqo}
+&\text{function(pString) \{} \\
+&\text{  let length = pString.length} \\
+&\text{  let position = 0} \\
+&\text{  let numParens = 0;} \\
+&\text{  while(numParens <=0 \&\& position < length) \{} \\
+&\text{    if(pString[position] === '(' ) \{} \\
+&\text{      numParens--;} \\
+&\text{    \} } \\
+&\text{    else if(pString[position] === ')' ) \{ } \\
+&\text{      numParens++} \\
+&\text{    position++} \\
+&\text{  \} } \\
+&\text{  if(position >= length \&\& numParens == 0) \{ } \\
+&\text{    return true} \\
+&\text{  \} } \\
+&\text{  return position--} \\
+&\text{\} } \\
+\end{soleqo}
+
+
+
+
 \subsubsection*{\textbf{3-2.} \emph{Write.
 }}
 

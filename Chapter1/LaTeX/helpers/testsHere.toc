@@ -8,4 +8,4 @@
 \contentsline {subsection}{\numberline {2.1}Program Analysis}{11}% 
 \contentsline {section}{\numberline {3}Data Structures}{16}% 
 \contentsline {subsection}{\numberline {3.1}Stacks, Queues, and Lists}{16}% 
-\contentsline {subsection}{\numberline {3.2}Trees And Other Dictionary Structures}{16}% 
+\contentsline {subsection}{\numberline {3.2}Trees And Other Dictionary Structures}{17}% 
