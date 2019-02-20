@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {3.4}Binary Search Trees}{16}% 
 \contentsline {subsubsection}{\numberline {3.4.1}Implementing Binary Search Trees}{16}% 
 \contentsline {subsubsection}{\numberline {3.4.2}How Good Are Binary Search Trees?}{18}% 
-\contentsline {subsubsection}{\numberline {3.4.3}Balanced Search Trees?}{18}% 
+\contentsline {subsubsection}{\numberline {3.4.3}Balanced Search Trees}{18}% 
 \contentsline {subsection}{\numberline {3.5}Priority Queues}{19}% 
 \contentsline {subsection}{\numberline {3.6}War Story: Stripping Triangulations}{19}% 
 \contentsline {subsection}{\numberline {3.7}Hashing and Strings}{20}% 

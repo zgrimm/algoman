@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  20 FEB 2019 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  20 FEB 2019 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,6 +912,11 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 42--46
  []
 
 [5]) (./chapter_1/_1.4_modeling_the_problem.tex
+Underfull \hbox (badness 10000) in paragraph at lines 57--1
+
+ []
+
+
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 23--27
 [] 
  []
@@ -954,7 +959,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--1
 
  []
 
-<./2_4.png, id=49, 447.92343pt x 140.02313pt>
+<./2_4.png, id=51, 447.92343pt x 140.02313pt>
 File: ./2_4.png Graphic file (type png)
 <use ./2_4.png>
 Package pdftex.def Info: ./2_4.png  used on input line 5.
@@ -975,7 +980,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 ) (./chapter_2/_2.5_reasoning_about_efficiency.tex
-<./2_5.png, id=57, 167.12437pt x 157.33781pt>
+<./2_5.png, id=59, 167.12437pt x 157.33781pt>
 File: ./2_5.png Graphic file (type png)
 <use ./2_5.png>
 Package pdftex.def Info: ./2_5.png  used on input line 7.
@@ -985,7 +990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
-<./2_6.png, id=61, 144.54pt x 79.79813pt>
+<./2_6.png, id=63, 144.54pt x 79.79813pt>
 File: ./2_6.png Graphic file (type png)
 <use ./2_6.png>
 Package pdftex.def Info: ./2_6.png  used on input line 48.
@@ -995,13 +1000,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--1
 
  []
 
-<./2_7.png, id=66, 149.05687pt x 83.5622pt>
+<./2_7.png, id=68, 149.05687pt x 83.5622pt>
 File: ./2_7.png Graphic file (type png)
 <use ./2_7.png>
 Package pdftex.def Info: ./2_7.png  used on input line 9.
 (pdftex.def)             Requested size: 134.14993pt x 75.20526pt.
 [11 <./2_6.PNG> <./2_7.PNG>]
-<./2_8.png, id=75, 222.07968pt x 243.91125pt>
+<./2_8.png, id=76, 222.07968pt x 243.91125pt>
 File: ./2_8.png Graphic file (type png)
 <use ./2_8.png>
 Package pdftex.def Info: ./2_8.png  used on input line 39.
@@ -1201,19 +1206,20 @@ s/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qt
-mr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
+lic/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/
+qtmbi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (20 pages, 344675 bytes).
+re.pdf (20 pages, 352553 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
