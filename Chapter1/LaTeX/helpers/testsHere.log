@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  20 FEB 2019 01:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.20)  20 FEB 2019 01:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,17 +745,7 @@ Package caption Info: listings package is loaded.
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ))
-(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux
-
-LaTeX Warning: Label `fig:demo-diagram' multiply defined.
-
-
-LaTeX Warning: Label `fig:demo-diagram' multiply defined.
-
-
-LaTeX Warning: Label `fig:demo-diagram2-4' multiply defined.
-
-)
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
 \openout1 = `testsHere.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -772,7 +762,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
- (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -836,16 +827,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.toc [1
-
-
-
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.toc)
 \tf@toc=\write4
 \openout4 = `testsHere.toc'.
 
- [2] [3]
-(./chapter_1/finding_counter_examples.tex [4]
+ [1
+
+
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./chapter_1/finding_counter_examples.tex [2]
 Overfull \hbox (25.20537pt too wide) in paragraph at lines 64--64
 \T1/qtm/m/it/12 For ex-am-ple, there are the fol-low-ing sub-sets, $\OML/cmm/m/
 it/12 S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12
@@ -856,7 +847,7 @@ cmm/m/it/12 ; S[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 2\OML/cmm
 \OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ;  and S[] \OT1/cmr/m/n/12 =
  []
 
-[5]) (./chapter_1/proofs_of_correctness.tex
+[3]) (./chapter_1/proofs_of_correctness.tex
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 12.
 
 (c:/texlive/2018/texmf-dist/tex/latex/bera/t1fvm.fd
@@ -876,7 +867,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <6> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 5.39996pt on input line 12.
- [6] [7] [8] [9]
+ [4] [5] [6] [7]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 187.
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
@@ -888,53 +879,51 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 187.
 )
-(./chapter_1/induction.tex [10] [11] [12]) (./chapter_2/program_analysis.tex
-[13] [14] [15] [16] [17]) (./chapter_3/stacks_queues_and_lists.tex)
+(./chapter_1/induction.tex [8] [9] [10]) (./chapter_2/program_analysis.tex
+[11] [12] [13] [14] [15]) (./chapter_3/stacks_queues_and_lists.tex)
+(./chapter_3/trees_and_other_dictionary_structures.tex)
 
 Package caption Warning: Unused \captionsetup[figure] on input line 61.
 See the caption package documentation for explanation.
 
-[18] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[16] (C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHere.aux) ) 
 Here is how much of TeX's memory you used:
- 18411 strings out of 492616
- 352433 string characters out of 6132768
+ 18407 strings out of 492616
+ 352432 string characters out of 6132768
  595381 words of memory out of 5000000
- 21908 multiletter control sequences out of 15000+600000
+ 21901 multiletter control sequences out of 15000+600000
  69289 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,14n,86p,602b,1029s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texm
-f-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvm
-ro8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/tex-gyre/qtmri.pfb>
+{c:
+/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dis
+t/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/bera/fvmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/bera/fvmro8a.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/tex-gyre/qtmbi.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/tex-gyre/qtmri.pfb>
 Output written on C:\Users\Owner\Desktop\algoman\Chapter1\LaTeX\helpers/testsHe
-re.pdf (18 pages, 305986 bytes).
+re.pdf (16 pages, 305207 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 158 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
