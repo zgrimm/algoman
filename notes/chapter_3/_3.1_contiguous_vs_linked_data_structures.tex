@@ -1,2 +1,91 @@
 \subsection{Contigous vs. Linked Data Structures}
 
+\begin{enumerate}
+	\item 
+	  \emph{Continuously allocated structures (arrays)}
+	\item 
+	  \emph{Linked data structures (pointers, lists, trees...)}
+\end{enumerate}
+
+\subsubsection{Arrays}
+$$M=\sum_{i=1}^{lg(n)} i*\frac{n}{2^{i}} = n*\sum_{i=1}^{lg(n)}\frac{i}{2^{i}} \leq n*\sum_{i=1}^{\infty}\frac{i}{2^{i}} = 2n$$
+
+\subsubsection{Pointers and Linked Structures}
+
+figure here*** (Linked Lst example showing data and pointer fields)
+
+\begin{verbatim}
+  typedef struct list {
+    item_type item;          /*data item*/
+    struct list *next;       /*point to successor*/
+  } list;
+\end{verbatim}
+
+\textbf{ \emph{Searching a List} }\\
+
+\begin{verbatim}
+  list *search_list(list *1, item_type x)
+  {
+    if(1 == NULL) return(NULL);
+
+    if(1->item == x)
+      return(1);
+    else
+      return(search_list(1->next, x) );
+  }
+\end{verbatim}
+
+\textbf{ \emph{Insertion into a List} }\\
+
+\begin{verbatim}
+  void insert_list(list **1, item_type x) 
+  {
+      list *p                  /* temporary pointer*/
+
+      p = malloc(sizeof(list));
+      p->item = x;
+      p->next = *1;
+      *1 = p;
+  }
+\end{verbatim}
+
+\textbf{ \emph{Deletion From a List} }\\
+
+\begin{verbatim}
+  list *predecessor_list(list *1, item_type x)
+  {
+      if((1 == NULL) || (1->next == NULL)) {
+          printf("Error: predecessor sought on null list.\n");
+          return(NULL);
+      }
+
+      if((1->next)->item == x)
+          return(1);
+      else
+          return(predecessor_list(1->next, x));
+  }
+
+  delete_list(list **1, item_type x)
+  {
+      list *p;                      /*item pointer*/
+      list *pred                    /*predecessor pointer*/
+      list *search_list(), *predecessor_list();
+
+      p = search_list(*1,x);
+      if(p != NULL) {
+          pred = predecessor_list(*1, x);
+          if(pred == NULL)          /*splice out list*/
+              *1 = p->next;
+          else
+              pred->next = p->next;
+          free(p);                  /*free memory used by node*/
+      }
+  }
+\end{verbatim}
+
+\subsubsection{Comparison}
+
+\noindent\fbox{\parbox{\textwidth}{%
+\emph{Take-Home Lesson: }Dynamic memory allocation provides us with flexibility on how and where we use our limited storage resources.
+}%
+}

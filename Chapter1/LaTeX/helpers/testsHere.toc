@@ -1,11 +1,50 @@
-\contentsline {section}{\numberline {1}Introduction To Algorithm Design}{2}% 
-\contentsline {subsection}{\numberline {1.1}Finding Counter Examples}{2}% 
-\contentsline {subsection}{\numberline {1.2}Proofs of Correctness}{4}% 
-\contentsline {subsection}{\numberline {1.3}Induction}{9}% 
-\contentsline {subsection}{\numberline {1.4}Estimation}{11}% 
-\contentsline {subsection}{\numberline {1.5}Implementation Projects}{11}% 
-\contentsline {section}{\numberline {2}Algorithm Analysis}{11}% 
-\contentsline {subsection}{\numberline {2.1}Program Analysis}{11}% 
-\contentsline {section}{\numberline {3}Data Structures}{16}% 
-\contentsline {subsection}{\numberline {3.1}Stacks, Queues, and Lists}{16}% 
-\contentsline {subsection}{\numberline {3.2}Trees And Other Dictionary Structures}{17}% 
+\contentsline {section}{\numberline {1}Introduction To Algorithm Design}{4}% 
+\contentsline {subsection}{\numberline {1.1}Robot Tour Optimization}{5}% 
+\contentsline {subsection}{\numberline {1.2}Selecting the Right Jobs}{5}% 
+\contentsline {subsection}{\numberline {1.3}Reasoning about Correctness}{5}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Expressing Algorithms}{5}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Problems and Properties}{5}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Demonstrating Incorrectness}{5}% 
+\contentsline {subsubsection}{\numberline {1.3.4}Induction and Recursion}{6}% 
+\contentsline {subsubsection}{\numberline {1.3.5}Summations}{6}% 
+\contentsline {subsection}{\numberline {1.4}Modeling The Problem}{6}% 
+\contentsline {subsubsection}{\numberline {1.4.1}Combinatorial Objects}{6}% 
+\contentsline {subsubsection}{\numberline {1.4.2}Recursive Objects}{6}% 
+\contentsline {subsection}{\numberline {1.5}About the War Stories}{7}% 
+\contentsline {subsection}{\numberline {1.6}War Story: Psychic Modeling}{7}% 
+\contentsline {section}{\numberline {2}Algorithm Analysis}{7}% 
+\contentsline {subsection}{\numberline {2.1}The RAM Model of Computation}{7}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Best, Worst, and Average-Case Complexity}{7}% 
+\contentsline {subsection}{\numberline {2.2}The Big Oh Notation}{7}% 
+\contentsline {subsection}{\numberline {2.3}Growth Rates and Dominance Relations}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Dominance Relations}{8}% 
+\contentsline {subsection}{\numberline {2.4}Working with the Big Oh}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Adding Functions}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Multiplying Functions}{9}% 
+\contentsline {subsection}{\numberline {2.5}Reasoning About Efficiency}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.1}Selection Sort}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Insertion Sort}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.3}String Pattern Matching}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.4}Matrix Multiplication}{11}% 
+\contentsline {subsection}{\numberline {2.6}Logarithms and Their Applications}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Logarithms and Binary Search}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.2}Logarithms Trees}{12}% 
+\contentsline {subsubsection}{\numberline {2.6.3}Logarithms and Bits}{12}% 
+\contentsline {subsubsection}{\numberline {2.6.4}Logarithms and Multiplication}{12}% 
+\contentsline {subsubsection}{\numberline {2.6.5}Fast Exponentiation}{12}% 
+\contentsline {subsubsection}{\numberline {2.6.6}Logarithms and Summations}{12}% 
+\contentsline {subsubsection}{\numberline {2.6.7}Logarithms and Criminal Justice}{12}% 
+\contentsline {subsection}{\numberline {2.7}Properties of Logarithms}{13}% 
+\contentsline {subsection}{\numberline {2.8}War Story: Mystery of the Pyramids}{13}% 
+\contentsline {subsection}{\numberline {2.9}Advanced Aanalysis (*)}{13}% 
+\contentsline {subsection}{\numberline {2.10}Esoteric Functions}{13}% 
+\contentsline {subsection}{\numberline {2.11}Limits and Dominance Relations}{13}% 
+\contentsline {section}{\numberline {3}Data Structures}{13}% 
+\contentsline {subsection}{\numberline {3.1}Contigous vs. Linked Data Structures}{13}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Arrays}{14}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Pointers and Linked Structures}{14}% 
+\contentsline {subsubsection}{\numberline {3.1.3}Comparison}{15}% 
+\contentsline {subsection}{\numberline {3.2}Stacks and Queues}{15}% 
+\contentsline {subsection}{\numberline {3.3}Dictionaries}{15}% 
+\contentsline {subsection}{\numberline {3.4}Binary Search Trees}{16}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Implementing Binary Search Trees}{16}% 

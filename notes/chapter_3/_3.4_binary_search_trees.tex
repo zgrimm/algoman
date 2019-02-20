@@ -1,0 +1,91 @@
+\subsection{Binary Search Trees}
+
+For any binary tree on n nodes and any set of n keys, there is exactly one labeling that makes it a binary search tree \\
+
+\subsubsection{Implementing Binary Search Trees}
+
+\begin{verbatim}
+    typedef struct tree {
+        item_type item;        /*data item*/
+        struct tree *parent    /*pointer to parent*/
+        struct tree *left      /*pointer to left child*/
+        struct tree *right     /*pointer to right child*/
+    } tree;
+\end{verbatim}
+
+Basic binary search tree operations:
+\begin{enumerate}
+	\item \emph{search}
+	\item \emph{traversal}
+	\item \emph{insertion}
+	\item \emph{deletion}
+\end{enumerate}
+
+\textbf{ \emph{Searching in a Tree} }\\
+
+\begin{verbatim}
+    tree *search_tree(tree *1, item_type x)
+    {
+        if(1 == NULL) return(NULL);
+
+        if(1->item == x) return(1);
+
+        if(x < 1->item)
+            return(search_tree(1->left, x));
+        else
+            return(search_tree(1->right, x));
+    }
+\end{verbatim}
+
+\textbf{ \emph{Finding Minimum and Maximum Elements in a Tree} }\\
+
+\begin{verbatim}
+    tree *find_minimum(tree *t)
+    {
+        tree *min;         /*pointer to minimum*/
+
+        if(t == NULL) return(NULL);
+
+        min = t;
+        while(min->left !=NULL)
+            min = min->left;
+        return(min)
+    }
+\end{verbatim}
+
+\textbf{ \emph{Traversal in a Tree} }\\
+
+\begin{verbatim}
+    void traverse_tree(tree *1)
+    {
+        if(1 != NULL) {
+            traverse_tree(1->left);
+            process_item(1->item);
+            traverse_tree(1->right);
+        }
+    }
+\end{verbatim}
+
+\textbf{ \emph{Insertion in a Tree} }\\
+
+\begin{verbatim}
+    insert_tree(tree **1, item_type x, tree *parent)
+    {
+        tree *p;                          /*temporary pointer*/
+
+        if(*1 == NULL) {
+            p = malloc(sizeof(tree));     /*allocate new node*/
+            p->item = x;
+            p->left = p->right = NULL;
+            p->parent = parent;
+            *1 = p;                       /*link into parents record*/
+            return;
+        }
+
+        if(x < (*1)->item)
+            insert_tree(&((*1)->left), x, *1);
+        else
+            insert_tree(&((*1)->right), x, *1);
+    }
+\end{verbatim}
+
