@@ -1,0 +1,21 @@
+\subsection{Hashing and Strings}
+
+$$H(S) = \sum_{i=0}^{\mid S \mid - 1}\alpha^{\mid S \mid - (i+1)} x char(s_{i})$$
+
+\subsubsection{Collision Resolution}
+chaining vs open addressing \\
+
+\subsubsection{Efficient String Matching via Hashing}
+
+\emph{Problem:} Substring Pattern Matching \\
+\emph{Input:} A text string t and a pattern string p. \\
+\emph{Output:} Does t contain the pattern p as a substring, and if so where?\\
+
+
+$$H(S, j) = \sum_{i=0}^{m - 1}\alpha^{m - (i+1)} x char(s_{i+j})$$
+
+$$H(S, j+1) = \alpha(H(S,j) - \alpha^{m-1}char(s_{j})) + char(s_{j+m})$$
+
+\subsubsection{Duplicate Detection Via Hashing}
+
+Hashing is a fundamental idea in randomized algorithms yielding linear expected time algorithms for problems otherwise $\Theta(nlog(n))$ or $\Theta(n^{2})$ in the worst case. \\

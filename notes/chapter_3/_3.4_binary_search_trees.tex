@@ -14,12 +14,12 @@ For any binary tree on n nodes and any set of n keys, there is exactly one label
 \end{verbatim}
 
 Basic binary search tree operations:
-\begin{enumerate}
+\begin{itemize}
 	\item \emph{search}
 	\item \emph{traversal}
 	\item \emph{insertion}
 	\item \emph{deletion}
-\end{enumerate}
+\end{itemize}
 
 \textbf{ \emph{Searching in a Tree} }\\
 
@@ -89,3 +89,28 @@ Basic binary search tree operations:
     }
 \end{verbatim}
 
+\textbf{ \emph{Deletion from a Tree} }\\
+
+figure here*** (Deleting tree nodes with 0, 1 and 2 children)\\
+
+\subsubsection{How Good Are Binary Search Trees?}
+
+What if items are inserted in order? Trees should be balanced. \\
+
+
+\subsubsection{Balanced Search Trees?}
+
+\noindent\fbox{\parbox{\textwidth}{%
+\emph{Take-Home Lesson: }Picking the wrong data structure for the job can be disastrous in terms of performance. Identifying the very best data structure is usually not as critical, because there can be several choices that perform similarly.
+}%
+}
+
+\textbf{Stop and Think: Exploiting Balanced Search Trees} \\
+
+\emph{Problem: You are given the task of reading n numbers and then printing them out in sorted order. Suppose you have access to a balanced dictionary data atructure, which supports the operations search, insert, delete, minimum, maximum, successor and predecesor each in O(log(n)) time}\\
+
+\begin{enumerate}
+	\item \emph{How can you sort in O(nlog(n)) time using only insert and in-order traversal?}
+	\item \emph{How can you sort in O(nlog(n)) time using only minimum, seccessor, and insert?}
+	\item \emph{How can you sort in O(nlog(n)) time using only minimum, insert, delete, and search?}
+\end{enumerate}
